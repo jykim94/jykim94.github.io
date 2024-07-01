@@ -12,7 +12,7 @@ Hello, I am Jaeyeul Kim, a Ph. D. student at the Department of Electrical Engine
 
 Education & Research Experience
 ======
-- **Visiting Reasearcher**<br>
+- **Visiting Researcher**<br>
 Robotics Institute, Carnegie Mellon University (CMU), Pittsburgh, US.<br>
 Apr 2024 - Oct 2024
 
