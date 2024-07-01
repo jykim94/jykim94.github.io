@@ -54,6 +54,10 @@ CVPR workshop on Autonomous Driving (**CVPRw**), 2023. (Technical report)
 Jungwan Woo\*, **Jaeyeul Kim\***, Sunghoon Im<br>
 ECCV workshop on 3D Perception for Autonomous Driving (**ECCVw**), 2022. (Technical report)
 
+### Weakly Supervised Foreground Object Detection Network Using Background Model Image
+**Jaeyeul Kim** and Jongeun Ha<br>
+**IEEE Access**, 2022.
+
 ### RVMOS: Range-View Moving Object Segmentation Leveraged by Semantic and Motion Features
 **Jaeyeul Kim\***, Jungwan Woo\*, Sunghoon Im<br>
  IEEE Robotics and Automation Letters (**RA-L / IROS**), 2022. 
