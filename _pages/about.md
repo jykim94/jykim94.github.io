@@ -12,14 +12,21 @@ Hello, I am Jaeyeul Kim, a Ph. D. student at the Department of Electrical Engine
 
 Education & Research Experience
 ======
+- **Visiting Reasearcher**<br>
+Robotics Institute, Carnegie Mellon University (CMU), Pittsburgh, US.<br>
+2024.4 - 2024.10
+
 - **Ph.D. Course in Electrical Engineering and Computer Science**<br>
-Daegu Gyeongbuk Institute of Science and Technology (DGIST), South Korea, 2021.9 - Present
+Daegu Gyeongbuk Institute of Science and Technology (DGIST), South Korea.<br>
+2021.9 - Present
 
 - **M.S. in Automotive Engineering**<br>
-Seoul National University of Science and Technology (SeoulTech), South Korea, 2018.9 - 2021.8
+Seoul National University of Science and Technology (SEOULTECH), South Korea.<br>
+2018.9 - 2021.8
 
 - **B.S. in Mechanical and Automotive Engineering**<br>
-Seoul National University of Science and Technology (SeoulTech), 2012.3 - 2018.8
+Seoul National University of Science and Technology (SEOULTECH), South Korea.<br>
+2012.3 - 2018.8
 
 
 Publications
@@ -76,6 +83,7 @@ International Conference on Control, Automation and Systems (**ICCAS**), 2018.
 Scholarships & Awards
 ======
 - Winner, Argoverse LiDAR Scene Flow Challenge at CVPR workshops on Autonomous Driving, 2024.
+- DGIST Post-Graduate Research Abroad Award, 2024.
 - 1st place on the Autonomous Driving A.I challenge, organized by Ministry of Land,Infrastructure and Transport, 2023.
 - Honorable Mention, Argoverse End-to-End Forecasting Challenge at CVPR workshops on Autonomous Driving, 2023.
 - Asian Federation of Computer Vision (AFCV) Best Robot Vision Paper Award, KRoC 2023.
