@@ -12,16 +12,41 @@ A
 Publications
 ======
 ### Rethinking LiDAR Domain Generalization: Single Source as Multiple Density Domains
-**Jaeyeul Kim\***, Jungwan Woo\*, Jeonghoon Kim, Sunghoon Im
+**Jaeyeul Kim\***, Jungwan Woo\*, Jeonghoon Kim, Sunghoon Im<br>
 European Conference on Computer Vision (**ECCV**), 2024. (Accepted)
 
 ### Density-aware Domain Generalization for LiDAR Semantic Segmentation
-**Jaeyeul Kim\***, Jungwan Woo\*, Ukcheol Shin, Jean Oh, Sunghoon Im
+**Jaeyeul Kim\***, Jungwan Woo\*, Ukcheol Shin, Jean Oh, Sunghoon Im<br>
 IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS**), 2024. (Accepted)
 
 ### Automatic Extrinsic Calibration of a Camera and a 2D LiDAR with Point-Line Correspondences
-**Jaeyeul** and Jongeun Ha
+**Jaeyeul** and Jongeun Ha<br>
 **IEEE Access**, 2023.
+
+### Motion Forecasting via Coordinate Transformations and Object Trajectory Modifications
+Jungwan Woo\*, **Jaeyeul Kim\***, Sunghoon Im<br>
+CVPR workshop on Autonomous Driving (**CVPRw**), 2023. (Technical report)
+
+### LiDAR 3D Object Detection via Self-Training and Knowledge Distillation
+Jungwan Woo\*, **Jaeyeul Kim\***, Sunghoon Im<br>
+ECCV workshop on 3D Perception for Autonomous Driving (**ECCVw**), 2022. (Technical report)
+
+### RVMOS: Range-View Moving Object Segmentation Leveraged by Semantic and Motion Features
+**Jaeyeul Kim\***, Jungwan Woo\*, Sunghoon Im<br>
+ IEEE Robotics and Automation Letters (**RA-L / IROS**), 2022. 
+
+### Spatio-temporal data augmentation for visual surveillance
+**Jaeyeul** and Jongeun Ha<br>
+**IEEE Access**, 2021.
+
+### Generation of Background Model Image Using Foreground Model
+**Jaeyeul** and Jongeun Ha<br>
+**IEEE Access**, 2021.
+
+### Extrinsic Calibration of a Camera and a 2D LiDAR using a Dummy Camera with IR Cut Filter Removed
+**Jaeyeul** and Jongeun Ha<br>
+**IEEE Access**, 2020.
+
 
 
 Scholarships & Awards
