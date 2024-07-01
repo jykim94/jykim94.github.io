@@ -7,7 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-Hello, I am Jaeyeul Kim, a Ph. D. student at the Department of Electrical Engineering & Computer Sciences (EECS) at DGIST, South Korea.
+Hello, I am Jaeyeul Kim, a Ph.D. student in the Department of Electrical Engineering and Computer Science (EECS) at DGIST in South Korea.
+I am conducting research on autonomous driving perception under the supervision of Professor Sunghoon Im at the DGIST Computer Vision Lab.
+Specifically, I have worked on LiDAR-based segmentation, detection, tracking, and forecasting.
+My current research interest is in autonomous vehicle planning.
 
 
 Education & Research Experience
