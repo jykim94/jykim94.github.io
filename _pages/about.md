@@ -75,7 +75,7 @@ ECCV workshop on 3D Perception for Autonomous Driving (**ECCVw**), 2022. (Techni
 **Jaeyeul Kim** and Jongeun Ha<br>
 International Conference on Control, Automation and Systems (**ICCAS**), 2019.
 
-### xtrinsic Calibration of Camera and Laser Range Finder using a Dummy Camera without IR Cut Filter
+### Extrinsic Calibration of Camera and Laser Range Finder using a Dummy Camera without IR Cut Filter
 **Jaeyeul Kim** and Jongeun Ha<br>
 International Conference on Control, Automation and Systems (**ICCAS**), 2018.
 
@@ -88,7 +88,7 @@ Scholarships & Awards
 - Honorable Mention, Argoverse Forecasting Challenge at CVPR WAD, 2023.
 - Asian Federation of Computer Vision (AFCV) Best Robot Vision Paper Award, KRoC, 2023.
 - 2nd place, Autonomous Driving A.I challenge (organized by Ministry of Land, Infrastructure and Transport), 2022. 
-- 3rd place on the ECCV workshop on 3D Perception for Autonomous Driving, 2022.
+- 3rd place, ECCV workshop on 3D Perception for Autonomous Driving, 2022.
 - DGIST Presidential Fellowship, 2021.
 - SEOULTECH Graduate School Admission Scholarship, 2018.
 - Bronze Award, SoC Robot War-HURO Competition (organized by KAIST SDIA), 2018.
