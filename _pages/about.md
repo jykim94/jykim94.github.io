@@ -7,7 +7,20 @@ redirect_from:
   - /about.html
 ---
 
-A
+Hello, I am Jaeyeul Kim, a Ph. D. student at the Department of Electrical Engineering & Computer Sciences (EECS) at DGIST, South Korea.
+
+
+Education & Research Experience
+======
+- **Ph.D. Course in Electrical Engineering and Computer Science**<br>
+Daegu Gyeongbuk Institute of Science and Technology (DGIST), South Korea, 2021.9 - Present
+
+- **M.S. in Automotive Engineering**<br>
+Seoul National University of Science and Technology (SeoulTech), South Korea, 2018.9 - 2021.8
+
+- **B.S. in Mechanical and Automotive Engineering**<br>
+Seoul National University of Science and Technology (SeoulTech), 2012.3 - 2018.8
+
 
 Publications
 ======
@@ -47,6 +60,17 @@ ECCV workshop on 3D Perception for Autonomous Driving (**ECCVw**), 2022. (Techni
 **Jaeyeul** and Jongeun Ha<br>
 **IEEE Access**, 2020.
 
+### Foreground Objects Detection Using a Fully Convolutional Network with a Background Model Image and Multiple Original Images
+**Jaeyeul** and Jongeun Ha<br>
+**IEEE Access**, 2020.
+
+### Automatic Extrinsic Calibration of a Camera and Laser Range Finder using Constraints Fusion
+**Jaeyeul** and Jongeun Ha<br>
+International Conference on Control, Automation and Systems (**ICCAS**), 2019.
+
+### xtrinsic Calibration of Camera and Laser Range Finder using a Dummy Camera without IR Cut Filter
+**Jaeyeul** and Jongeun Ha<br>
+International Conference on Control, Automation and Systems (**ICCAS**), 2018.
 
 
 Scholarships & Awards
