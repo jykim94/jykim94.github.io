@@ -87,10 +87,10 @@ Scholarships & Awards
 ======
 - Winner, Argoverse LiDAR Scene Flow Challenge at CVPR WAD, 2024.
 - DGIST Post-Graduate Research Abroad Award, 2024.
-- 1st place, Autonomous Driving A.I challenge (organized by Ministry of Land, Infrastructure and Transport), 2023.
+- 1st place, Autonomous Driving A.I challenge (organized by MOLIT 국토교통부), 2023.
 - Honorable Mention, Argoverse Forecasting Challenge at CVPR WAD, 2023.
 - Asian Federation of Computer Vision (AFCV) Best Robot Vision Paper Award, KRoC, 2023.
-- 2nd place, Autonomous Driving A.I challenge (organized by Ministry of Land, Infrastructure and Transport), 2022. 
+- 2nd place, Autonomous Driving A.I challenge (organized by MOLIT 국토교통부), 2022. 
 - 3rd place, ECCV workshop on 3D Perception for Autonomous Driving, 2022.
 - DGIST Presidential Fellowship, 2021.
 - SEOULTECH Graduate School Admission Scholarship, 2018.
