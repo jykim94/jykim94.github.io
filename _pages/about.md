@@ -82,23 +82,23 @@ International Conference on Control, Automation and Systems (**ICCAS**), 2018.
 
 Scholarships & Awards
 ======
-- Winner, Argoverse LiDAR Scene Flow Challenge at CVPR workshops on Autonomous Driving, 2024.
+- Winner, Argoverse LiDAR Scene Flow Challenge at CVPR WAD, 2024.
 - DGIST Post-Graduate Research Abroad Award, 2024.
-- 1st place on the Autonomous Driving A.I challenge, organized by Ministry of Land,Infrastructure and Transport, 2023.
-- Honorable Mention, Argoverse End-to-End Forecasting Challenge at CVPR workshops on Autonomous Driving, 2023.
-- Asian Federation of Computer Vision (AFCV) Best Robot Vision Paper Award, KRoC 2023.
-- 2nd place on the Autonomous Driving A.I challenge, organized by Ministry of Land,Infrastructure and Transport, 2022. 
+- 1st place, Autonomous Driving A.I challenge (organized by Ministry of Land, Infrastructure and Transport), 2023.
+- Honorable Mention, Argoverse Forecasting Challenge at CVPR WAD, 2023.
+- Asian Federation of Computer Vision (AFCV) Best Robot Vision Paper Award, KRoC, 2023.
+- 2nd place, Autonomous Driving A.I challenge (organized by Ministry of Land, Infrastructure and Transport), 2022. 
 - 3rd place on the ECCV workshop on 3D Perception for Autonomous Driving, 2022.
-- DGIST Presidential Fellowship, Sep 2021.
-- SEOULTECH Graduate School Admission Scholarship, Sep 2018.
-- SoC Robot War-HURO Competition, Bronze Award (organized by KAIST SDIA), Aug 2018.
-- SoC Robot War-HURO Competition, Bronze Award (organized by KAIST SDIA), Sep 2017.
+- DGIST Presidential Fellowship, 2021.
+- SEOULTECH Graduate School Admission Scholarship, 2018.
+- Bronze Award, SoC Robot War-HURO Competition (organized by KAIST SDIA), 2018.
+- Bronze Award, SoC Robot War-HURO Competition (organized by KAIST SDIA), 2017.
 
 Reviwer
 ======
-- IEEE International Conference on Robotics and Automation (ICRA)
-- IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
-- IEEE Robotics and Automation Letters (RA-L)
+- IEEE International Conference on Robotics and Automation (**ICRA**)
+- IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS**)
+- IEEE Robotics and Automation Letters (**RA-L**)
 - NeurIPS Track Datasets and Benchmarks
 
 <!-- Site-wide configuration
