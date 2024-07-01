@@ -14,19 +14,19 @@ Education & Research Experience
 ======
 - **Visiting Reasearcher**<br>
 Robotics Institute, Carnegie Mellon University (CMU), Pittsburgh, US.<br>
-2024.4 - 2024.10
+Apr 2024 - Oct 2024
 
 - **Ph.D. Course in Electrical Engineering and Computer Science**<br>
 Daegu Gyeongbuk Institute of Science and Technology (DGIST), South Korea.<br>
-2021.9 - Present
+Aug 2021 - Present
 
 - **M.S. in Automotive Engineering**<br>
 Seoul National University of Science and Technology (SEOULTECH), South Korea.<br>
-2018.9 - 2021.8
+Aug 2018 - Aug 2021
 
 - **B.S. in Mechanical and Automotive Engineering**<br>
 Seoul National University of Science and Technology (SEOULTECH), South Korea.<br>
-2012.3 - 2018.8
+Mar 2012 - Aug 2018
 
 
 Publications
@@ -40,7 +40,7 @@ European Conference on Computer Vision (**ECCV**), 2024. (Accepted)
 IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS**), 2024. (Accepted)
 
 ### Automatic Extrinsic Calibration of a Camera and a 2D LiDAR with Point-Line Correspondences
-**Jaeyeul** and Jongeun Ha<br>
+**Jaeyeul Kim** and Jongeun Ha<br>
 **IEEE Access**, 2023.
 
 ### Motion Forecasting via Coordinate Transformations and Object Trajectory Modifications
@@ -56,27 +56,27 @@ ECCV workshop on 3D Perception for Autonomous Driving (**ECCVw**), 2022. (Techni
  IEEE Robotics and Automation Letters (**RA-L / IROS**), 2022. 
 
 ### Spatio-temporal data augmentation for visual surveillance
-**Jaeyeul** and Jongeun Ha<br>
+**Jaeyeul Kim** and Jongeun Ha<br>
 **IEEE Access**, 2021.
 
 ### Generation of Background Model Image Using Foreground Model
-**Jaeyeul** and Jongeun Ha<br>
+**Jaeyeul Kim** and Jongeun Ha<br>
 **IEEE Access**, 2021.
 
 ### Extrinsic Calibration of a Camera and a 2D LiDAR using a Dummy Camera with IR Cut Filter Removed
-**Jaeyeul** and Jongeun Ha<br>
+**Jaeyeul Kim** and Jongeun Ha<br>
 **IEEE Access**, 2020.
 
 ### Foreground Objects Detection Using a Fully Convolutional Network with a Background Model Image and Multiple Original Images
-**Jaeyeul** and Jongeun Ha<br>
+**Jaeyeul Kim** and Jongeun Ha<br>
 **IEEE Access**, 2020.
 
 ### Automatic Extrinsic Calibration of a Camera and Laser Range Finder using Constraints Fusion
-**Jaeyeul** and Jongeun Ha<br>
+**Jaeyeul Kim** and Jongeun Ha<br>
 International Conference on Control, Automation and Systems (**ICCAS**), 2019.
 
 ### xtrinsic Calibration of Camera and Laser Range Finder using a Dummy Camera without IR Cut Filter
-**Jaeyeul** and Jongeun Ha<br>
+**Jaeyeul Kim** and Jongeun Ha<br>
 International Conference on Control, Automation and Systems (**ICCAS**), 2018.
 
 
