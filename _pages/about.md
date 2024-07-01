@@ -12,20 +12,25 @@ A
 Publications
 ======
 ### Rethinking LiDAR Domain Generalization: Single Source as Multiple Density Domains
-**Jaeyeul Kim\*, Jungwan Woo*, Jeonghoon Kim, Sunghoon Im**  
-European Conference on Computer Vision (**ECCV**), 2024 (Accepted)
+**Jaeyeul Kim\***, Jungwan Woo\*, Jeonghoon Kim, Sunghoon Im
+European Conference on Computer Vision (**ECCV**), 2024. (Accepted)
 
-### Density-aware Domain Generalization \\for LiDAR Semantic Segmentation
-**Jaeyeul Kim\*, Jungwan Woo*, Ukcheol Shin, Jean Oh, Sunghoon Im**  
-IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS**), 2024 (Accepted)
+### Density-aware Domain Generalization for LiDAR Semantic Segmentation
+**Jaeyeul Kim\***, Jungwan Woo\*, Ukcheol Shin, Jean Oh, Sunghoon Im
+IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS**), 2024. (Accepted)
+
+### Automatic Extrinsic Calibration of a Camera and a 2D LiDAR with Point-Line Correspondences
+**Jaeyeul** and Jongeun Ha
+**IEEE Access**, 2023.
+
 
 Scholarships & Awards
 ======
-- Winner, Argoverse LiDAR Scene Flow Challenge at CVPR workshops on Autonomous Driving, 2023.
-- 1st place on the Autonomous Driving A.I challenge, organized by MOLIT, 2023.
+- Winner, Argoverse LiDAR Scene Flow Challenge at CVPR workshops on Autonomous Driving, 2024.
+- 1st place on the Autonomous Driving A.I challenge, organized by Ministry of Land,Infrastructure and Transport, 2023.
 - Honorable Mention, Argoverse End-to-End Forecasting Challenge at CVPR workshops on Autonomous Driving, 2023.
 - Asian Federation of Computer Vision (AFCV) Best Robot Vision Paper Award, KRoC 2023.
-- 2nd place on the Autonomous Driving A.I challenge, organized by MOLIT, 2022. 
+- 2nd place on the Autonomous Driving A.I challenge, organized by Ministry of Land,Infrastructure and Transport, 2022. 
 - 3rd place on the ECCV workshop on 3D Perception for Autonomous Driving, 2022.
 - DGIST Presidential Fellowship, Sep 2021.
 - SEOULTECH Graduate School Admission Scholarship, Sep 2018.
@@ -34,7 +39,10 @@ Scholarships & Awards
 
 Reviwer
 ======
-A
+- IEEE International Conference on Robotics and Automation (ICRA)
+- IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+- IEEE Robotics and Automation Letters (RA-L)
+- NeurIPS Track Datasets and Benchmarks
 
 <!-- Site-wide configuration
 ------
