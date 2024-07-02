@@ -91,14 +91,14 @@ Scholarships & Awards
 ======
 <ul style="margin: 0; padding: 0; list-style-position: inside;">
   <li style="line-height: 1.2;"><span style="font-size: 16px; color: black"><strong>Winner</strong>, Argoverse LiDAR Scene Flow Challenge at CVPR WAD, 2024.</span></li>
-  <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">DGIST Post-Graduate Research Abroad Award, 2024.</span></li>
+  <li style="line-height: 1.2;"><span style="font-size: 16px; color: black"><strong>DGIST Post-Graduate Research Abroad Award</strong>, 2024.</span></li>
   <li style="line-height: 1.2;"><span style="font-size: 16px; color: black"><strong>1st place</strong>, Autonomous Driving A.I challenge (organized by MOLIT 국토교통부), 2023.</span></li>
   <li style="line-height: 1.2;"><span style="font-size: 16px; color: black"><strong>Honorable Mention</strong>, Argoverse Forecasting Challenge at CVPR WAD, 2023.</span></li>
   <li style="line-height: 1.2;"><span style="font-size: 16px; color: black"><strong>Best Robot Vision Paper Award</strong>, Asian Federation of Computer Vision (AFCV), 2023.</span></li>
   <li style="line-height: 1.2;"><span style="font-size: 16px; color: black"><strong>2nd place</strong>, Autonomous Driving A.I challenge (organized by MOLIT 국토교통부), 2022. </span></li>
   <li style="line-height: 1.2;"><span style="font-size: 16px; color: black"><strong>3rd place</strong>, ECCV workshop on 3D Perception for Autonomous Driving, 2022. </span></li>
-  <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">DGIST Presidential Fellowship, 2021. </span></li>
-  <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">SEOULTECH Graduate School Admission Scholarship, 2018. </span></li>
+  <li style="line-height: 1.2;"><span style="font-size: 16px; color: black"><strong>DGIST Presidential Fellowship</strong>, 2021. </span></li>
+  <li style="line-height: 1.2;"><span style="font-size: 16px; color: black"><strong>SEOULTECH Graduate School Admission Scholarship</strong>, 2018. </span></li>
   <li style="line-height: 1.2;"><span style="font-size: 16px; color: black"><strong>Bronze Award</strong>, SoC Robot War-HURO Competition (organized by KAIST SDIA), 2018. </span></li>
   <li style="line-height: 1.2;"><span style="font-size: 16px; color: black"><strong>Bronze Award</strong>, SoC Robot War-HURO Competition (organized by KAIST SDIA), 2017. </span></li>
 </ul>
