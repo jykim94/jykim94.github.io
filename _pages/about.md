@@ -91,8 +91,8 @@ Scholarships & Awards
 ======
 <span style="font-size: 12px; color: green">- Winner, Argoverse LiDAR Scene Flow Challenge at CVPR WAD, 2024.</span>
 <ul>
-  <li><span style="color: green;">Winner, Argoverse LiDAR Scene Flow Challenge at CVPR WAD, 2024.</span></li>
-  <li><span style="color: green;">DGIST Post-Graduate Research Abroad Award, 2024.</span></li>
+  <li><span style="font-size: 12px; color: black">Winner, Argoverse LiDAR Scene Flow Challenge at CVPR WAD, 2024.</span></li>
+  <li><span style="font-size: 12px; color: black">DGIST Post-Graduate Research Abroad Award, 2024.</span></li>
 </ul>
 
 - Winner, Argoverse LiDAR Scene Flow Challenge at CVPR WAD, 2024.
