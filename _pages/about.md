@@ -102,6 +102,18 @@ Scholarships & Awards
   <li style="line-height: 1.2;"><span style="font-size: 16px; color: black"><strong>Bronze Award</strong>, SoC Robot War-HURO Competition (organized by KAIST SDIA), 2018. </span></li>
   <li style="line-height: 1.2;"><span style="font-size: 16px; color: black"><strong>Bronze Award</strong>, SoC Robot War-HURO Competition (organized by KAIST SDIA), 2017. </span></li>
 </ul>
+
+<div style="margin-bottom: 20px;"></div>
+
+Reviwer
+======
+<ul style="margin: 0; padding: 0; list-style-position: inside;">
+  <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">IEEE International Conference on Robotics and Automation (<strong>ICRA</strong>)</span></li>
+  <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">IEEE/RSJ International Conference on Intelligent Robots and Systems (<strong>IROS</strong>)</span></li>
+  <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">IEEE Robotics and Automation Letters (<strong>RA-L</strong>)</span></li>
+  <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">NeurIPS Track Datasets and Benchmarks</span></li>
+</ul>
+
 <!-- 
 - Winner, Argoverse LiDAR Scene Flow Challenge at CVPR WAD, 2024.
 - DGIST Post-Graduate Research Abroad Award, 2024.
@@ -116,16 +128,6 @@ Scholarships & Awards
 - Bronze Award, SoC Robot War-HURO Competition (organized by KAIST SDIA), 2017.
 -->
 
-
-Reviwer
-======
-<ul style="margin: 0; padding: 0; list-style-position: inside;">
-  <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">IEEE International Conference on Robotics and Automation (<strong>ICRA</strong>)</span></li>
-  <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">IEEE/RSJ International Conference on Intelligent Robots and Systems (<strong>IROS</strong>)</span></li>
-  <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">IEEE Robotics and Automation Letters (<strong>RA-L</strong>)</span></li>
-  <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">NeurIPS Track Datasets and Benchmarks</span></li>
-  <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">T</span></li>
-</ul>
 <!-- 
 - IEEE International Conference on Robotics and Automation (**ICRA**)
 - IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS**)
