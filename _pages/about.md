@@ -92,10 +92,10 @@ Scholarships & Awards
 <ul style="margin: 0; padding: 0; list-style-position: inside;">
   <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">Winner, Argoverse LiDAR Scene Flow Challenge at CVPR WAD, 2024.</span></li>
   <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">DGIST Post-Graduate Research Abroad Award, 2024.</span></li>
-  <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">1st place, Autonomous Driving A.I challenge (organized by MOLIT 국토교통부), 2023.</span></li>
+  <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">1st place, Autonomous Driving A.I challenge (organized by Ministry of Land,Infrastructure and Transport), 2023.</span></li>
   <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">Honorable Mention, Argoverse Forecasting Challenge at CVPR WAD, 2023.</span></li>
   <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">Asian Federation of Computer Vision (AFCV) Best Robot Vision Paper Award, KRoC, 2023.</span></li>
-  <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">2nd place, Autonomous Driving A.I challenge (organized by MOLIT 국토교통부), 2022. </span></li>
+  <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">2nd place, Autonomous Driving A.I challenge (organized by Ministry of Land,Infrastructure and Transport), 2022. </span></li>
   <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">3rd place, ECCV workshop on 3D Perception for Autonomous Driving, 2022. </span></li>
   <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">DGIST Presidential Fellowship, 2021. </span></li>
   <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">SEOULTECH Graduate School Admission Scholarship, 2018. </span></li>
@@ -118,10 +118,18 @@ Scholarships & Awards
 
 Reviwer
 ======
+<ul style="margin: 0; padding: 0; list-style-position: inside;">
+  <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">IEEE International Conference on Robotics and Automation (<strong>ICRA</strong>)</span></li>
+  <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">IEEE/RSJ International Conference on Intelligent Robots and Systems (<strong>IROS</strong>)</span></li>
+  <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">IEEE Robotics and Automation Letters (<strong>RA-L</strong>)</span></li>
+  <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">NeurIPS Track Datasets and Benchmarks</span></li>
+</ul>
+<!-- 
 - IEEE International Conference on Robotics and Automation (**ICRA**)
 - IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS**)
 - IEEE Robotics and Automation Letters (**RA-L**)
 - NeurIPS Track Datasets and Benchmarks
+-->
 
 <!-- Site-wide configuration
 ------
