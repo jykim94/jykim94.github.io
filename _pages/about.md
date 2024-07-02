@@ -16,19 +16,19 @@ My current research interest is in autonomous vehicle planning.
 Education & Research Experience
 ======
 - **Visiting Researcher**<br>
-Robotics Institute, Carnegie Mellon University (CMU), Pittsburgh, US.<br>
+Robotics Institute, Carnegie Mellon University (**CMU**), Pittsburgh, US.<br>
 Apr 2024 - Oct 2024
 
 - **Ph.D. Course in Electrical Engineering and Computer Science**<br>
-Daegu Gyeongbuk Institute of Science and Technology (DGIST), South Korea.<br>
+Daegu Gyeongbuk Institute of Science and Technology (**DGIST**), South Korea.<br>
 Aug 2021 - Present
 
 - **M.S. in Automotive Engineering**<br>
-Seoul National University of Science and Technology (SEOULTECH), South Korea.<br>
+Seoul National University of Science and Technology (**SEOULTECH**), South Korea.<br>
 Aug 2018 - Aug 2021
 
 - **B.S. in Mechanical and Automotive Engineering**<br>
-Seoul National University of Science and Technology (SEOULTECH), South Korea.<br>
+Seoul National University of Science and Technology (**SEOULTECH**), South Korea.<br>
 Mar 2012 - Aug 2018
 
 
