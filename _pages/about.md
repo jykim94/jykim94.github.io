@@ -39,7 +39,7 @@ Publications
     .publication {
         display: flex;
         align-items: center;
-        margin-bottom: 0px;
+        margin-bottom: -20px;
     }
     .publication img {
         margin-right: 20px;
@@ -56,7 +56,7 @@ Publications
     <div class="publication-info">
         <h3>Rethinking LiDAR Domain Generalization: Single Source as Multiple Density Domains</h3>
         <p><strong>Jaeyeul Kim*</strong>, Jungwan Woo*, Jeonghoon Kim, Sunghoon Im<br>
-        European Conference on Computer Vision (<strong>ECCV</strong>), 2024. (Accepted) T</p>
+        European Conference on Computer Vision (<strong>ECCV</strong>), 2024. (Accepted)</p>
     </div>
 </div>
 
