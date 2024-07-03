@@ -35,6 +35,7 @@ Mar 2012 - Aug 2018
 Publications
 ======
 <img src='/images/500x300.png'>
+
 ### Rethinking LiDAR Domain Generalization: Single Source as Multiple Density Domains
 **Jaeyeul Kim\***, Jungwan Woo\*, Jeonghoon Kim, Sunghoon Im<br>
 European Conference on Computer Vision (**ECCV**), 2024. (Accepted)
