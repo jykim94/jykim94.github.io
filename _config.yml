@@ -21,7 +21,7 @@ repository               : "jykim94/jykim94.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "IROS_CONF.jpg"
+  avatar           : "IROS_CONF_2.jpg"
   name             : "Jaeyeul Kim"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. Student Researching Autonomous Driving"
