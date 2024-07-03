@@ -172,21 +172,21 @@ Publications
 
 Publications
 ======
-<img src='/images/500x300.png'>
+<img src='/images/500x300.png' style="margin-bottom: 5px;">
 
 ### Rethinking LiDAR Domain Generalization: Single Source as Multiple Density Domains
 **Jaeyeul Kim\***, Jungwan Woo\*, Jeonghoon Kim, Sunghoon Im<br>
 European Conference on Computer Vision (**ECCV**), 2024. (Accepted)
 
-------
+---
 
-<img src='/images/500x300.png'>
+<img src='/images/500x300.png' style="margin-bottom: 0px;">
 
 ### Density-aware Domain Generalization for LiDAR Semantic Segmentation
 **Jaeyeul Kim\***, Jungwan Woo\*, Ukcheol Shin, Jean Oh, Sunghoon Im<br>
 IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS**), 2024. (Accepted)
 
-------
+-----
 
 <img src='/images/500x300.png'>
 
