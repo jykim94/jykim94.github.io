@@ -32,7 +32,7 @@ Seoul National University of Science and Technology (**SEOULTECH**), South Korea
 Mar 2012 - Aug 2018
 
 
-
+<!--
 Publications
 ======
 <style>
@@ -167,9 +167,9 @@ Publications
         International Conference on Control, Automation and Systems (<strong>ICCAS</strong>), 2018.</p>
     </div>
 </div>
+-->
 
 
-<!--
 Publications
 ======
 <img src='/images/500x300.png'>
@@ -185,7 +185,7 @@ European Conference on Computer Vision (**ECCV**), 2024. (Accepted)
 **Jaeyeul Kim\***, Jungwan Woo\*, Ukcheol Shin, Jean Oh, Sunghoon Im<br>
 IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS**), 2024. (Accepted)
 
-
+<img src='/images/500x300.png'>
 
 ### Automatic Extrinsic Calibration of a Camera and a 2D LiDAR with Point-Line Correspondences
 **Jaeyeul Kim** and Jongeun Ha<br>
@@ -230,7 +230,8 @@ International Conference on Control, Automation and Systems (**ICCAS**), 2019.
 ### Extrinsic Calibration of Camera and Laser Range Finder using a Dummy Camera without IR Cut Filter
 **Jaeyeul Kim** and Jongeun Ha<br>
 International Conference on Control, Automation and Systems (**ICCAS**), 2018.
--->
+
+
 <div style="margin-bottom: 20px;"></div>
 
 Scholarships & Awards
