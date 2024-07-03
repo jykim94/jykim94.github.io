@@ -271,6 +271,13 @@ International Conference on Control, Automation and Systems (**ICCAS**), 2018.
 
 Scholarships & Awards
 ======
+- **Winner**, Argoverse LiDAR Scene Flow Challenge at CVPR WAD, 2024.
+- **DGIST Post-Graduate Research Abroad Award**, 2024.
+- **1st place**, Autonomous Driving A.I challenge (organized by MOLIT 국토교통부), 2023.
+- **Honorable Mention**, Argoverse Forecasting Challenge at CVPR WAD, 2023.
+- **Best Robot Vision Paper Award**, Asian Federation of Computer Vision (AFCV), 2023.
+
+
 <ul style="margin: 0; padding: 0; list-style-position: inside;">
   <li style="line-height: 1.2;"><span style="font-size: 16px; color: black"><strong>Winner</strong>, Argoverse LiDAR Scene Flow Challenge at CVPR WAD, 2024.</span></li>
   <li style="line-height: 1.2;"><span style="font-size: 16px; color: black"><strong>DGIST Post-Graduate Research Abroad Award</strong>, 2024.</span></li>
