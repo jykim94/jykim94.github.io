@@ -231,6 +231,7 @@ International Conference on Control, Automation and Systems (**ICCAS**), 2019.
 **Jaeyeul Kim** and Jongeun Ha<br>
 International Conference on Control, Automation and Systems (**ICCAS**), 2018.
 -->
+<div style="margin-bottom: 20px;"></div>
 
 Scholarships & Awards
 ======
