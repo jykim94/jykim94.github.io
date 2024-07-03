@@ -195,7 +195,7 @@ IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS**), 
 ### Automatic Extrinsic Calibration of a Camera and a 2D LiDAR with Point-Line Correspondences
 **Jaeyeul Kim** and Jongeun Ha<br>
 **IEEE Access**, 2023.<br>
-[[Paper]](https://ieeexplore.ieee.org/abstract/document/10190560)
+[[Paper](https://ieeexplore.ieee.org/abstract/document/10190560)]
 
 ---
 
@@ -223,7 +223,7 @@ ECCV workshop on 3D Perception for Autonomous Driving (**ECCVw**), 2022. (Techni
 ### Weakly Supervised Foreground Object Detection Network Using Background Model Image
 **Jaeyeul Kim** and Jongeun Ha<br>
 **IEEE Access**, 2022.<br>
-[Paper](https://ieeexplore.ieee.org/abstract/document/9910159)
+[[Paper](https://ieeexplore.ieee.org/abstract/document/9910159)]
 
 ---
 
@@ -232,21 +232,21 @@ ECCV workshop on 3D Perception for Autonomous Driving (**ECCVw**), 2022. (Techni
 ### RVMOS: Range-View Moving Object Segmentation Leveraged by Semantic and Motion Features
 **Jaeyeul Kim\***, Jungwan Woo\*, Sunghoon Im<br>
  IEEE Robotics and Automation Letters (**RA-L / IROS**), 2022.<br>
-[Paper](https://ieeexplore.ieee.org/abstract/document/9806157?casa_token=Wh8HzTzEc9oAAAAA:avTmOXKHGE-LnG-4OabPdx3tmCEv0VDpnUnyLbxL0QgHJ0dG2jqX3ncs1KgMJGyq3CZvCqpB)
+[[Paper](https://ieeexplore.ieee.org/abstract/document/9806157?casa_token=Wh8HzTzEc9oAAAAA:avTmOXKHGE-LnG-4OabPdx3tmCEv0VDpnUnyLbxL0QgHJ0dG2jqX3ncs1KgMJGyq3CZvCqpB)]
 
 ---
 
 ### Spatio-temporal data augmentation for visual surveillance
 **Jaeyeul Kim** and Jongeun Ha<br>
 **IEEE Access**, 2021.<br>
-[Paper](https://ieeexplore.ieee.org/abstract/document/9650910)
+[[Paper](https://ieeexplore.ieee.org/abstract/document/9650910)]
 
 ---
 
 ### Generation of Background Model Image Using Foreground Model
 **Jaeyeul Kim** and Jongeun Ha<br>
 **IEEE Access**, 2021.<br>
-[Paper](https://ieeexplore.ieee.org/abstract/document/9535139)
+[[Paper](https://ieeexplore.ieee.org/abstract/document/9535139)]
 
 ---
 
@@ -255,14 +255,14 @@ ECCV workshop on 3D Perception for Autonomous Driving (**ECCVw**), 2022. (Techni
 ### Extrinsic Calibration of a Camera and a 2D LiDAR using a Dummy Camera with IR Cut Filter Removed
 **Jaeyeul Kim** and Jongeun Ha<br>
 **IEEE Access**, 2020.<br>
-[Paper](https://ieeexplore.ieee.org/abstract/document/9216096)
+[[Paper](https://ieeexplore.ieee.org/abstract/document/9216096)]
 
 ---
 
 ### Foreground Objects Detection Using a Fully Convolutional Network with a Background Model Image and Multiple Original Images
 **Jaeyeul Kim** and Jongeun Ha<br>
 **IEEE Access**, 2020.<br>
-[Paper](https://ieeexplore.ieee.org/abstract/document/9183919)
+[[Paper](https://ieeexplore.ieee.org/abstract/document/9183919)]
 
 ---
 
