@@ -39,7 +39,7 @@ Publications
     .publication {
         display: flex;
         align-items: center;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
     .publication img {
         margin-right: 20px;
