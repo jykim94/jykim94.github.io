@@ -176,11 +176,11 @@ Publications
 
 ### Rethinking LiDAR Domain Generalization: Single Source as Multiple Density Domains
 **Jaeyeul Kim\***, Jungwan Woo\*, Jeonghoon Kim, Sunghoon Im<br>
-European Conference on Computer Vision (**ECCV**), 2024. (Accepted)
+European Conference on Computer Vision (**ECCV**), 2024. (Accepted) T
 
 <hr style="border: 0.5px solid black; margin-top: -10px; margin-bottom: 20px;">
 
-<img src='/images/500x300.png' style="margin-bottom: -20px;">
+<img src='/images/500x300.png' style="width: 500px; height: 300px; margin-bottom: -20px;">
 
 ### Density-aware Domain Generalization for LiDAR Semantic Segmentation
 **Jaeyeul Kim\***, Jungwan Woo\*, Ukcheol Shin, Jean Oh, Sunghoon Im<br>
@@ -188,7 +188,7 @@ IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS**), 
 
 <hr style="border: 0.5px solid black; margin-top: -10px; margin-bottom: 20px;">
 
-<img src='/images/500x300.png' style="margin-bottom: -20px;">
+<img src='/images/500x300.png' style="width: 500px; height: 300px; margin-bottom: -20px;">
 
 ### Automatic Extrinsic Calibration of a Camera and a 2D LiDAR with Point-Line Correspondences
 **Jaeyeul Kim** and Jongeun Ha<br>
@@ -196,7 +196,7 @@ IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS**), 
 
 <hr style="border: 0.5px solid black; margin-top: -10px; margin-bottom: 20px;">
 
-<img src='/images/editing-talk.png' style="margin-bottom: -20px;">
+<img src='/images/editing-talk.png' style="width: 500px; height: 300px; margin-bottom: -20px;">
 
 ### Motion Forecasting via Coordinate Transformations and Object Trajectory Modifications
 Jungwan Woo\*, **Jaeyeul Kim\***, Sunghoon Im<br>
