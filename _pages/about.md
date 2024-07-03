@@ -232,30 +232,31 @@ ECCV workshop on 3D Perception for Autonomous Driving (**ECCVw**), 2022. (Techni
 **Jaeyeul Kim** and Jongeun Ha<br>
 **IEEE Access**, 2021.
 
-<hr style="border: 0.5px solid black; margin-top: -10px; margin-bottom: 20px;">
+<hr style="border: 0.4px solid black; margin-top: -10px; margin-bottom: 20px;">
 
 ### Extrinsic Calibration of a Camera and a 2D LiDAR using a Dummy Camera with IR Cut Filter Removed
 **Jaeyeul Kim** and Jongeun Ha<br>
 **IEEE Access**, 2020.
 
-<hr style="border: 0.5px solid black; margin-top: -10px; margin-bottom: 20px;">
+<hr style="border: 0.3px solid black; margin-top: -10px; margin-bottom: 20px;">
 
 ### Foreground Objects Detection Using a Fully Convolutional Network with a Background Model Image and Multiple Original Images
 **Jaeyeul Kim** and Jongeun Ha<br>
 **IEEE Access**, 2020.
 
-<hr style="border: 0.5px solid black; margin-top: -10px; margin-bottom: 20px;">
+<hr style="border: 0.2px solid black; margin-top: -10px; margin-bottom: 20px;">
 
 ### Automatic Extrinsic Calibration of a Camera and Laser Range Finder using Constraints Fusion
 **Jaeyeul Kim** and Jongeun Ha<br>
 International Conference on Control, Automation and Systems (**ICCAS**), 2019.
 
-<hr style="border: 0.5px solid black; margin-top: -10px; margin-bottom: 20px;">
+<hr style="border: 0.05px solid black; margin-top: -10px; margin-bottom: 20px;">
 
 ### Extrinsic Calibration of Camera and Laser Range Finder using a Dummy Camera without IR Cut Filter
 **Jaeyeul Kim** and Jongeun Ha<br>
 International Conference on Control, Automation and Systems (**ICCAS**), 2018.
 
+<hr style="border: 0.01px solid black; margin-top: -10px; margin-bottom: 20px;">
 
 <div style="margin-bottom: 20px;"></div>
 
