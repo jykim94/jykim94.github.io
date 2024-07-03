@@ -38,7 +38,7 @@ Publications
 <style>
     .publication {
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         margin-bottom: 20px;
     }
     .publication img {
