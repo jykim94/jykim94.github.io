@@ -172,21 +172,21 @@ Publications
 
 Publications
 ======
-<img src='/images/500x300.png' style="margin-bottom: 5px;">
+<img src='/images/500x300.png' style="margin-bottom: -20px;">
 
 ### Rethinking LiDAR Domain Generalization: Single Source as Multiple Density Domains
 **Jaeyeul Kim\***, Jungwan Woo\*, Jeonghoon Kim, Sunghoon Im<br>
-European Conference on Computer Vision (**ECCV**), 2024. (Accepted)
+European Conference on Computer Vision (**ECCV**), 2024. (Accepted) T
 
----
+<hr style="border: 2px solid black; margin-top: 0px; margin-bottom: 0px;">
 
-<img src='/images/500x300.png' style="margin-bottom: 0px;">
+<img src='/images/500x300.png' style="margin-bottom: -15px;">
 
 ### Density-aware Domain Generalization for LiDAR Semantic Segmentation
 **Jaeyeul Kim\***, Jungwan Woo\*, Ukcheol Shin, Jean Oh, Sunghoon Im<br>
 IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS**), 2024. (Accepted)
 
------
+<hr style="border: 5px solid black; margin-top: 0px; margin-bottom: -10px;">
 
 <img src='/images/500x300.png'>
 
@@ -194,13 +194,15 @@ IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS**), 
 **Jaeyeul Kim** and Jongeun Ha<br>
 **IEEE Access**, 2023.
 
-------
+<hr style="border: 10px solid black; margin-top: 0px; margin-bottom: -5px;">
 
 ### Motion Forecasting via Coordinate Transformations and Object Trajectory Modifications
 Jungwan Woo\*, **Jaeyeul Kim\***, Sunghoon Im<br>
 CVPR workshop on Autonomous Driving (**CVPRw**), 2023. (Technical report)
 
 ------
+
+<hr style="border: 20px solid black; margin-top: 0px; margin-bottom: 0px;">
 
 ### LiDAR 3D Object Detection via Self-Training and Knowledge Distillation
 Jungwan Woo\*, **Jaeyeul Kim\***, Sunghoon Im<br>
