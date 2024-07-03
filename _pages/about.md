@@ -272,13 +272,13 @@ International Conference on Control, Automation and Systems (**ICCAS**), 2018.
 Scholarships & Awards
 ======
 - **Winner**, Argoverse LiDAR Scene Flow Challenge at CVPR WAD, 2024.
-- **DGIST Post-Graduate Research Abroad Award**, 2024 (**15,000,000 KRW**).
+- **DGIST Post-Graduate Research Abroad Award**, 2024 (₩15,000,000).
 - **1st place**, Autonomous Driving A.I challenge (organized by MOLIT 국토교통부), 2023.
 - **Honorable Mention**, Argoverse Forecasting Challenge at CVPR WAD, 2023.
 - **Best Robot Vision Paper Award**, Asian Federation of Computer Vision (AFCV), 2023.
 - **2nd place**, Autonomous Driving A.I challenge (organized by MOLIT 국토교통부), 2022.
 - **3rd place**, ECCV workshop on 3D Perception for Autonomous Driving, 2022.
-- **DGIST Presidential Fellowship**, 2021 (**24,000,000 KRW**).
+- **DGIST Presidential Fellowship**, 2021 (₩24,000,000).
 - **SEOULTECH Graduate School Admission Scholarship**, 2018.
 - **Bronze Award**, SoC Robot War-HURO Competition (organized by KAIST SDIA), 2018.
 - **Bronze Award**, SoC Robot War-HURO Competition (organized by KAIST SDIA), 2017.
