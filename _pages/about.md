@@ -177,6 +177,7 @@ Publications
 ### Rethinking LiDAR Domain Generalization: Single Source as Multiple Density Domains
 **Jaeyeul Kim\***, Jungwan Woo\*, Jeonghoon Kim, Sunghoon Im<br>
 European Conference on Computer Vision (**ECCV**), 2024. (Accepted)
+[Paper]
 
 ---
 
@@ -185,6 +186,7 @@ European Conference on Computer Vision (**ECCV**), 2024. (Accepted)
 ### Density-aware Domain Generalization for LiDAR Semantic Segmentation
 **Jaeyeul Kim\***, Jungwan Woo\*, Ukcheol Shin, Jean Oh, Sunghoon Im<br>
 IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS**), 2024. (Accepted)
+[Paper]
 
 ---
 
@@ -193,6 +195,7 @@ IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS**), 
 ### Automatic Extrinsic Calibration of a Camera and a 2D LiDAR with Point-Line Correspondences
 **Jaeyeul Kim** and Jongeun Ha<br>
 **IEEE Access**, 2023.
+[Paper](https://ieeexplore.ieee.org/abstract/document/10190560)
 
 ---
 
@@ -201,6 +204,7 @@ IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS**), 
 ### Motion Forecasting via Coordinate Transformations and Object Trajectory Modifications
 Jungwan Woo\*, **Jaeyeul Kim\***, Sunghoon Im<br>
 CVPR workshop on Autonomous Driving (**CVPRw**), 2023. (Technical report)
+[Paper](https://www.neeharperi.com/files/dgist-cvlab_techreport_cvprw23.pdf)
 
 ---
 
@@ -209,6 +213,7 @@ CVPR workshop on Autonomous Driving (**CVPRw**), 2023. (Technical report)
 ### LiDAR 3D Object Detection via Self-Training and Knowledge Distillation
 Jungwan Woo\*, **Jaeyeul Kim\***, Sunghoon Im<br>
 ECCV workshop on 3D Perception for Autonomous Driving (**ECCVw**), 2022. (Technical report)
+[Paper]
 
 ---
 
@@ -218,6 +223,7 @@ ECCV workshop on 3D Perception for Autonomous Driving (**ECCVw**), 2022. (Techni
 ### Weakly Supervised Foreground Object Detection Network Using Background Model Image
 **Jaeyeul Kim** and Jongeun Ha<br>
 **IEEE Access**, 2022.
+[Paper](https://ieeexplore.ieee.org/abstract/document/9910159)
 
 ---
 
@@ -226,18 +232,21 @@ ECCV workshop on 3D Perception for Autonomous Driving (**ECCVw**), 2022. (Techni
 ### RVMOS: Range-View Moving Object Segmentation Leveraged by Semantic and Motion Features
 **Jaeyeul Kim\***, Jungwan Woo\*, Sunghoon Im<br>
  IEEE Robotics and Automation Letters (**RA-L / IROS**), 2022. 
+[Paper](https://ieeexplore.ieee.org/abstract/document/9806157?casa_token=Wh8HzTzEc9oAAAAA:avTmOXKHGE-LnG-4OabPdx3tmCEv0VDpnUnyLbxL0QgHJ0dG2jqX3ncs1KgMJGyq3CZvCqpB)
 
 ---
 
 ### Spatio-temporal data augmentation for visual surveillance
 **Jaeyeul Kim** and Jongeun Ha<br>
 **IEEE Access**, 2021.
+[Paper](https://ieeexplore.ieee.org/abstract/document/9650910)
 
 ---
 
 ### Generation of Background Model Image Using Foreground Model
 **Jaeyeul Kim** and Jongeun Ha<br>
 **IEEE Access**, 2021.
+[Paper](https://ieeexplore.ieee.org/abstract/document/9535139)
 
 ---
 
@@ -246,24 +255,28 @@ ECCV workshop on 3D Perception for Autonomous Driving (**ECCVw**), 2022. (Techni
 ### Extrinsic Calibration of a Camera and a 2D LiDAR using a Dummy Camera with IR Cut Filter Removed
 **Jaeyeul Kim** and Jongeun Ha<br>
 **IEEE Access**, 2020.
+[Paper](https://ieeexplore.ieee.org/abstract/document/9216096)
 
 ---
 
 ### Foreground Objects Detection Using a Fully Convolutional Network with a Background Model Image and Multiple Original Images
 **Jaeyeul Kim** and Jongeun Ha<br>
 **IEEE Access**, 2020.
+[Paper](https://ieeexplore.ieee.org/abstract/document/9183919)
 
 ---
 
 ### Automatic Extrinsic Calibration of a Camera and Laser Range Finder using Constraints Fusion
 **Jaeyeul Kim** and Jongeun Ha<br>
 International Conference on Control, Automation and Systems (**ICCAS**), 2019.
+[Paper]
 
 ---
 
 ### Extrinsic Calibration of Camera and Laser Range Finder using a Dummy Camera without IR Cut Filter
 **Jaeyeul Kim** and Jongeun Ha<br>
 International Conference on Control, Automation and Systems (**ICCAS**), 2018.
+[Paper]
 
 ---
 
