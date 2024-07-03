@@ -172,43 +172,43 @@ Publications
 
 Publications
 ======
-<img src='/images/500x300.png' style="margin-bottom: -20px;">
+<img src='/images/500x300.png' style="margin-bottom: -100px;">
 
 ### Rethinking LiDAR Domain Generalization: Single Source as Multiple Density Domains
 **Jaeyeul Kim\***, Jungwan Woo\*, Jeonghoon Kim, Sunghoon Im<br>
-European Conference on Computer Vision (**ECCV**), 2024. (Accepted) T
+European Conference on Computer Vision (**ECCV**), 2024. (Accepted)
 
-<hr style="border: 2px solid black; margin-top: 0px; margin-bottom: 0px;">
+<hr style="border: 0.1px solid black; margin-top: 0px; margin-bottom: 10px;">
 
-<img src='/images/500x300.png' style="margin-bottom: -15px;">
+<img src='/images/500x300.png' style="margin-bottom: -50px;">
 
 ### Density-aware Domain Generalization for LiDAR Semantic Segmentation
 **Jaeyeul Kim\***, Jungwan Woo\*, Ukcheol Shin, Jean Oh, Sunghoon Im<br>
 IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS**), 2024. (Accepted)
 
-<hr style="border: 5px solid black; margin-top: 0px; margin-bottom: -10px;">
+<hr style="border: 0.3px solid black; margin-top: 0px; margin-bottom: 10px;">
 
-<img src='/images/500x300.png'>
+<img src='/images/500x300.png' style="margin-bottom: -20px;">
 
 ### Automatic Extrinsic Calibration of a Camera and a 2D LiDAR with Point-Line Correspondences
 **Jaeyeul Kim** and Jongeun Ha<br>
 **IEEE Access**, 2023.
 
-<hr style="border: 10px solid black; margin-top: 0px; margin-bottom: -5px;">
+<hr style="border: 0.5px solid black; margin-top: 0px; margin-bottom: 10px;">
+
+<img src='/images/500x300.png'>
 
 ### Motion Forecasting via Coordinate Transformations and Object Trajectory Modifications
 Jungwan Woo\*, **Jaeyeul Kim\***, Sunghoon Im<br>
 CVPR workshop on Autonomous Driving (**CVPRw**), 2023. (Technical report)
 
-------
-
-<hr style="border: 20px solid black; margin-top: 0px; margin-bottom: 0px;">
+<hr style="border: 0.7px solid black; margin-top: 0px; margin-bottom: 10px;">
 
 ### LiDAR 3D Object Detection via Self-Training and Knowledge Distillation
 Jungwan Woo\*, **Jaeyeul Kim\***, Sunghoon Im<br>
 ECCV workshop on 3D Perception for Autonomous Driving (**ECCVw**), 2022. (Technical report)
 
-------
+<hr style="border: 1.0px solid black; margin-top: 0px; margin-bottom: 10px;">
 
 ### Weakly Supervised Foreground Object Detection Network Using Background Model Image
 **Jaeyeul Kim** and Jongeun Ha<br>
