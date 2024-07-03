@@ -311,6 +311,21 @@ Reviewer
 - The Visual Computer
 - International Journal of Intelligent Robotics and Applications
 
+
+
+
+<div style="margin-bottom: 20px;"></div>
+
+Skills
+======
+- Python, Pytorch, MATLAB, C++
+
+<div style="margin-bottom: 20px;"></div>
+
+Other Experience
+======
+- Republic of Korea Air Force, 17th Fighter Wing, 2012-2014.
+
 <!-- 
 <ul style="margin: 0; padding: 0; list-style-position: inside;">
   <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">IEEE International Conference on Robotics and Automation (<strong>ICRA</strong>)</span></li>
