@@ -32,6 +32,144 @@ Seoul National University of Science and Technology (**SEOULTECH**), South Korea
 Mar 2012 - Aug 2018
 
 
+
+Publications
+======
+<style>
+    .publication {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+    .publication img {
+        margin-right: 20px;
+        width: 150px; /* 이미지 크기를 적절히 조절하세요 */
+        height: auto;
+    }
+    .publication-info {
+        max-width: calc(100% - 170px); /* 이미지와 마진을 고려한 너비 조절 */
+    }
+</style>
+
+<div class="publication">
+    <img src='/images/500x300.png' alt="Publication Image">
+    <div class="publication-info">
+        <h3>Rethinking LiDAR Domain Generalization: Single Source as Multiple Density Domains</h3>
+        <p><strong>Jaeyeul Kim*</strong>, Jungwan Woo*, Jeonghoon Kim, Sunghoon Im<br>
+        European Conference on Computer Vision (<strong>ECCV</strong>), 2024. (Accepted)</p>
+    </div>
+</div>
+
+<div class="publication">
+    <img src='/images/500x300.png' alt="Publication Image">
+    <div class="publication-info">
+        <h3>Density-aware Domain Generalization for LiDAR Semantic Segmentation</h3>
+        <p><strong>Jaeyeul Kim*</strong>, Jungwan Woo*, Ukcheol Shin, Jean Oh, Sunghoon Im<br>
+        IEEE/RSJ International Conference on Intelligent Robots and Systems (<strong>IROS</strong>), 2024. (Accepted)</p>
+    </div>
+</div>
+
+<div class="publication">
+    <img src='/images/500x300.png' alt="Publication Image">
+    <div class="publication-info">
+        <h3>Automatic Extrinsic Calibration of a Camera and a 2D LiDAR with Point-Line Correspondences</h3>
+        <p><strong>Jaeyeul Kim</strong> and Jongeun Ha<br>
+        <strong>IEEE Access</strong>, 2023.</p>
+    </div>
+</div>
+
+<div class="publication">
+    <img src='/images/500x300.png' alt="Publication Image">
+    <div class="publication-info">
+        <h3>Motion Forecasting via Coordinate Transformations and Object Trajectory Modifications</h3>
+        <p>Jungwan Woo*, <strong>Jaeyeul Kim*</strong>, Sunghoon Im<br>
+        CVPR workshop on Autonomous Driving (<strong>CVPRw</strong>), 2023. (Technical report)</p>
+    </div>
+</div>
+
+<div class="publication">
+    <img src='/images/500x300.png' alt="Publication Image">
+    <div class="publication-info">
+        <h3>LiDAR 3D Object Detection via Self-Training and Knowledge Distillation</h3>
+        <p>Jungwan Woo*, <strong>Jaeyeul Kim*</strong>, Sunghoon Im<br>
+        ECCV workshop on 3D Perception for Autonomous Driving (<strong>ECCVw</strong>), 2022. (Technical report)</p>
+    </div>
+</div>
+
+<div class="publication">
+    <img src='/images/500x300.png' alt="Publication Image">
+    <div class="publication-info">
+        <h3>Weakly Supervised Foreground Object Detection Network Using Background Model Image</h3>
+        <p><strong>Jaeyeul Kim</strong> and Jongeun Ha<br>
+        <strong>IEEE Access</strong>, 2022.</p>
+    </div>
+</div>
+
+<div class="publication">
+    <img src='/images/500x300.png' alt="Publication Image">
+    <div class="publication-info">
+        <h3>RVMOS: Range-View Moving Object Segmentation Leveraged by Semantic and Motion Features</h3>
+        <p><strong>Jaeyeul Kim*</strong>, Jungwan Woo*, Sunghoon Im<br>
+        IEEE Robotics and Automation Letters (<strong>RA-L / IROS</strong>), 2022. </p>
+    </div>
+</div>
+
+<div class="publication">
+    <img src='/images/500x300.png' alt="Publication Image">
+    <div class="publication-info">
+        <h3>Spatio-temporal data augmentation for visual surveillance</h3>
+        <p><strong>Jaeyeul Kim</strong> and Jongeun Ha<br>
+        <strong>IEEE Access</strong>, 2021.</p>
+    </div>
+</div>
+
+<div class="publication">
+    <img src='/images/500x300.png' alt="Publication Image">
+    <div class="publication-info">
+        <h3>Generation of Background Model Image Using Foreground Model</h3>
+        <p><strong>Jaeyeul Kim</strong> and Jongeun Ha<br>
+        <strong>IEEE Access</strong>, 2021.</p>
+    </div>
+</div>
+
+<div class="publication">
+    <img src='/images/500x300.png' alt="Publication Image">
+    <div class="publication-info">
+        <h3>Extrinsic Calibration of a Camera and a 2D LiDAR using a Dummy Camera with IR Cut Filter Removed</h3>
+        <p><strong>Jaeyeul Kim</strong> and Jongeun Ha<br>
+        <strong>IEEE Access</strong>, 2020.</p>
+    </div>
+</div>
+
+<div class="publication">
+    <img src='/images/500x300.png' alt="Publication Image">
+    <div class="publication-info">
+        <h3>Foreground Objects Detection Using a Fully Convolutional Network with a Background Model Image and Multiple Original Images</h3>
+        <p><strong>Jaeyeul Kim</strong> and Jongeun Ha<br>
+        <strong>IEEE Access</strong>, 2020.</p>
+    </div>
+</div>
+
+<div class="publication">
+    <img src='/images/500x300.png' alt="Publication Image">
+    <div class="publication-info">
+        <h3>Automatic Extrinsic Calibration of a Camera and Laser Range Finder using Constraints Fusion</h3>
+        <p><strong>Jaeyeul Kim</strong> and Jongeun Ha<br>
+        International Conference on Control, Automation and Systems (<strong>ICCAS</strong>), 2019.</p>
+    </div>
+</div>
+
+<div class="publication">
+    <img src='/images/500x300.png' alt="Publication Image">
+    <div class="publication-info">
+        <h3>Extrinsic Calibration of Camera and Laser Range Finder using a Dummy Camera without IR Cut Filter</h3>
+        <p><strong>Jaeyeul Kim</strong> and Jongeun Ha<br>
+        International Conference on Control, Automation and Systems (<strong>ICCAS</strong>), 2018.</p>
+    </div>
+</div>
+
+
+<!--
 Publications
 ======
 <img src='/images/500x300.png'>
@@ -40,9 +178,14 @@ Publications
 **Jaeyeul Kim\***, Jungwan Woo\*, Jeonghoon Kim, Sunghoon Im<br>
 European Conference on Computer Vision (**ECCV**), 2024. (Accepted)
 
+
+<img src='/images/500x300.png'>
+
 ### Density-aware Domain Generalization for LiDAR Semantic Segmentation
 **Jaeyeul Kim\***, Jungwan Woo\*, Ukcheol Shin, Jean Oh, Sunghoon Im<br>
 IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS**), 2024. (Accepted)
+
+
 
 ### Automatic Extrinsic Calibration of a Camera and a 2D LiDAR with Point-Line Correspondences
 **Jaeyeul Kim** and Jongeun Ha<br>
@@ -87,7 +230,7 @@ International Conference on Control, Automation and Systems (**ICCAS**), 2019.
 ### Extrinsic Calibration of Camera and Laser Range Finder using a Dummy Camera without IR Cut Filter
 **Jaeyeul Kim** and Jongeun Ha<br>
 International Conference on Control, Automation and Systems (**ICCAS**), 2018.
-
+-->
 
 Scholarships & Awards
 ======
