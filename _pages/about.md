@@ -188,7 +188,7 @@ IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS**), 
 
 ---
 
-<img src='/images/500x300.png' style="width: 300px; height: 200px; margin-bottom: -20px;">
+<img src='/images/Automatic.png' style="width: 300px; height: 200px; margin-bottom: -20px;">
 
 ### Automatic Extrinsic Calibration of a Camera and a 2D LiDAR with Point-Line Correspondences
 **Jaeyeul Kim** and Jongeun Ha<br>
@@ -196,7 +196,7 @@ IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS**), 
 
 ---
 
-<img src='/images/500x300.png' style="width: 300px; height: 200px; margin-bottom: -20px;">
+<img src='/images/CVPRw.png' style="width: 300px; height: 200px; margin-bottom: -20px;">
 
 ### Motion Forecasting via Coordinate Transformations and Object Trajectory Modifications
 Jungwan Woo\*, **Jaeyeul Kim\***, Sunghoon Im<br>
@@ -204,17 +204,24 @@ CVPR workshop on Autonomous Driving (**CVPRw**), 2023. (Technical report)
 
 ---
 
+<img src='/images/ECCVw.png' style="width: 300px; height: 200px; margin-bottom: -20px;">
+
 ### LiDAR 3D Object Detection via Self-Training and Knowledge Distillation
 Jungwan Woo\*, **Jaeyeul Kim\***, Sunghoon Im<br>
 ECCV workshop on 3D Perception for Autonomous Driving (**ECCVw**), 2022. (Technical report)
 
 ---
 
+
+<img src='/images/weakly.png' style="width: 300px; height: 200px; margin-bottom: -20px;">
+
 ### Weakly Supervised Foreground Object Detection Network Using Background Model Image
 **Jaeyeul Kim** and Jongeun Ha<br>
 **IEEE Access**, 2022.
 
 ---
+
+<img src='/images/rvmos.png' style="width: 300px; height: 200px; margin-bottom: -20px;">
 
 ### RVMOS: Range-View Moving Object Segmentation Leveraged by Semantic and Motion Features
 **Jaeyeul Kim\***, Jungwan Woo\*, Sunghoon Im<br>
@@ -233,6 +240,8 @@ ECCV workshop on 3D Perception for Autonomous Driving (**ECCVw**), 2022. (Techni
 **IEEE Access**, 2021.
 
 ---
+
+<img src='/images/Exrinsic_2020.png' style="width: 300px; height: 200px; margin-bottom: -20px;">
 
 ### Extrinsic Calibration of a Camera and a 2D LiDAR using a Dummy Camera with IR Cut Filter Removed
 **Jaeyeul Kim** and Jongeun Ha<br>
