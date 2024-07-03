@@ -213,7 +213,7 @@ ECCV workshop on 3D Perception for Autonomous Driving (**ECCVw**), 2022. (Techni
 ---
 
 
-<img src='/images/weakly.png' style="width: 300px; height: 200px; margin-bottom: -20px;">
+<img src='/images/Weakly.png' style="width: 300px; height: 200px; margin-bottom: -20px;">
 
 ### Weakly Supervised Foreground Object Detection Network Using Background Model Image
 **Jaeyeul Kim** and Jongeun Ha<br>
