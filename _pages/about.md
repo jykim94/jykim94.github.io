@@ -276,8 +276,14 @@ Scholarships & Awards
 - **1st place**, Autonomous Driving A.I challenge (organized by MOLIT 국토교통부), 2023.
 - **Honorable Mention**, Argoverse Forecasting Challenge at CVPR WAD, 2023.
 - **Best Robot Vision Paper Award**, Asian Federation of Computer Vision (AFCV), 2023.
+- **2nd place**, Autonomous Driving A.I challenge (organized by MOLIT 국토교통부), 2022.
+- **3rd place**, ECCV workshop on 3D Perception for Autonomous Driving, 2022.
+- **DGIST Presidential Fellowship**, 2021.
+- **SEOULTECH Graduate School Admission Scholarshipe**, 2018.
+- **Bronze Award**, SoC Robot War-HURO Competition (organized by KAIST SDIA), 2018.
+- **Bronze Award**, SoC Robot War-HURO Competition (organized by KAIST SDIA), 2017.
 
-
+<!-- 
 <ul style="margin: 0; padding: 0; list-style-position: inside;">
   <li style="line-height: 1.2;"><span style="font-size: 16px; color: black"><strong>Winner</strong>, Argoverse LiDAR Scene Flow Challenge at CVPR WAD, 2024.</span></li>
   <li style="line-height: 1.2;"><span style="font-size: 16px; color: black"><strong>DGIST Post-Graduate Research Abroad Award</strong>, 2024.</span></li>
@@ -291,17 +297,25 @@ Scholarships & Awards
   <li style="line-height: 1.2;"><span style="font-size: 16px; color: black"><strong>Bronze Award</strong>, SoC Robot War-HURO Competition (organized by KAIST SDIA), 2018. </span></li>
   <li style="line-height: 1.2;"><span style="font-size: 16px; color: black"><strong>Bronze Award</strong>, SoC Robot War-HURO Competition (organized by KAIST SDIA), 2017. </span></li>
 </ul>
+-->
 
 <div style="margin-bottom: 20px;"></div>
 
 Reviewer
 ======
+- IEEE International Conference on Robotics and Automation (**ICRA**)
+- IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS**)
+- IEEE Robotics and Automation Letters (**RA-L**)
+- NeurIPS Track Datasets and Benchmarks
+
+<!-- 
 <ul style="margin: 0; padding: 0; list-style-position: inside;">
   <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">IEEE International Conference on Robotics and Automation (<strong>ICRA</strong>)</span></li>
   <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">IEEE/RSJ International Conference on Intelligent Robots and Systems (<strong>IROS</strong>)</span></li>
   <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">IEEE Robotics and Automation Letters (<strong>RA-L</strong>)</span></li>
   <li style="line-height: 1.2;"><span style="font-size: 16px; color: black">NeurIPS Track Datasets and Benchmarks</span></li>
 </ul>
+-->
 
 <!-- 
 - Winner, Argoverse LiDAR Scene Flow Challenge at CVPR WAD, 2024.
