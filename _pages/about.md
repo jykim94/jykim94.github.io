@@ -279,7 +279,7 @@ Scholarships & Awards
 - **2nd place**, Autonomous Driving A.I challenge (organized by MOLIT 국토교통부), 2022.
 - **3rd place**, ECCV workshop on 3D Perception for Autonomous Driving, 2022.
 - **DGIST Presidential Fellowship**, 2021.
-- **SEOULTECH Graduate School Admission Scholarshipe**, 2018.
+- **SEOULTECH Graduate School Admission Scholarship**, 2018.
 - **Bronze Award**, SoC Robot War-HURO Competition (organized by KAIST SDIA), 2018.
 - **Bronze Award**, SoC Robot War-HURO Competition (organized by KAIST SDIA), 2017.
 
