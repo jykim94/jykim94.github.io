@@ -337,7 +337,7 @@ Skills
 
 Other Experience
 ======
-- Republic of Korea Air Force (17th Fighter Wing), 2012-2014.
+- Republic of Korea Air Force, 2012-2014.
 
 <!-- 
 <ul style="margin: 0; padding: 0; list-style-position: inside;">
