@@ -319,7 +319,7 @@ Reviewer
 - IEEE International Conference on Robotics and Automation (**ICRA**)
 - IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS**)
 - IEEE Robotics and Automation Letters (**RA-L**)
-- IEEE Sensors
+- IEEE Sensors Journal
 - NeurIPS Track Datasets and Benchmarks
 - Scientific Reports
 - The Visual Computer
