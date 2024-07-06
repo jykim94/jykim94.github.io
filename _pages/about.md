@@ -203,7 +203,7 @@ IEEE Access, 2023.<br>
 
 ### Motion Forecasting via Coordinate Transformations and Object Trajectory Modifications
 Jungwan Woo\*, **Jaeyeul Kim\***, Sunghoon Im<br>
-CVPR workshop on Autonomous Driving (**CVPRw**), 2023.<br>
+CVPR Workshop on Autonomous Driving (**CVPRw**), 2023.<br>
 [[Technical report](https://www.neeharperi.com/files/dgist-cvlab_techreport_cvprw23.pdf)] (**2nd place in the challenge**)
 
 ---
@@ -212,7 +212,7 @@ CVPR workshop on Autonomous Driving (**CVPRw**), 2023.<br>
 
 ### LiDAR 3D Object Detection via Self-Training and Knowledge Distillation
 Jungwan Woo\*, **Jaeyeul Kim\***, Sunghoon Im<br>
-ECCV workshop on 3D Perception for Autonomous Driving (**ECCVw**), 2022.<br>
+ECCV Workshop on 3D Perception for Autonomous Driving (**ECCVw**), 2022.<br>
 [Technical report] (**3rd place in the challenge**)
 
 ---
@@ -290,7 +290,7 @@ Scholarships & Awards
 - **Honorable Mention**, Argoverse Forecasting Challenge at CVPR WAD, 2023.
 - **Best Robot Vision Paper Award**, Asian Federation of Computer Vision (AFCV), 2023.
 - **2nd place**, Autonomous Driving A.I challenge (organized by MOLIT 국토교통부), 2022.
-- **3rd place**, ECCV workshop on 3D Perception for Autonomous Driving, 2022.
+- **3rd place**, ECCV Workshop on 3D Perception for Autonomous Driving, 2022.
 - **DGIST Presidential Fellowship**, 2021 (₩24,000,000).
 - **SEOULTECH Graduate School Admission Scholarship**, 2018.
 - **Bronze Award**, SoC Robot War-HURO Competition (organized by KAIST SDIA), 2018.
