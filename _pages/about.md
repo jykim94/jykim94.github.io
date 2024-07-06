@@ -203,8 +203,8 @@ IEEE Access, 2023.<br>
 
 ### Motion Forecasting via Coordinate Transformations and Object Trajectory Modifications
 Jungwan Woo\*, **Jaeyeul Kim\***, Sunghoon Im<br>
-CVPR workshop on Autonomous Driving (**CVPRw**), 2023. (Technical report)<br>
-[[Paper](https://www.neeharperi.com/files/dgist-cvlab_techreport_cvprw23.pdf)]
+CVPR workshop on Autonomous Driving (**CVPRw**), 2023.<br>
+[[Technical report](https://www.neeharperi.com/files/dgist-cvlab_techreport_cvprw23.pdf)] (**2nd place in the challenge**)
 
 ---
 
@@ -212,8 +212,8 @@ CVPR workshop on Autonomous Driving (**CVPRw**), 2023. (Technical report)<br>
 
 ### LiDAR 3D Object Detection via Self-Training and Knowledge Distillation
 Jungwan Woo\*, **Jaeyeul Kim\***, Sunghoon Im<br>
-ECCV workshop on 3D Perception for Autonomous Driving (**ECCVw**), 2022. (Technical report)<br>
-[Paper]
+ECCV workshop on 3D Perception for Autonomous Driving (**ECCVw**), 2022.<br>
+[Technical report] (**3rd place in the challenge**)
 
 ---
 
