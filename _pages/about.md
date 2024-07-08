@@ -176,7 +176,7 @@ Publications
 ### Flow4D: Leveraging 4D Voxel Network for LiDAR Scene Flow Estimation
 **Jaeyeul Kim**, Jungwan Woo, Ukcheol Shin, Jean Oh, Sunghoon Im<br>
 (Under review)<br>
-**Winner of the 2024 Argoverse 2 LiDAR Scene Flow Challenge**<br>
+**Winner of the Argoverse 2 LiDAR Scene Flow Challenge at CVPR 2024 WAD**<br>
 [Paper]
 
 ---
