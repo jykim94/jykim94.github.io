@@ -173,6 +173,8 @@ Publications
 Publications
 ======
 
+<img src='/images/FLOW2024.png' style="width: 350px; height: 200px; margin-bottom: -20px;">
+
 ### Flow4D: Leveraging 4D Voxel Network for LiDAR Scene Flow Estimation
 **Jaeyeul Kim**, Jungwan Woo, Ukcheol Shin, Jean Oh, Sunghoon Im<br>
 (Under review)<br>
