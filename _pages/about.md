@@ -179,7 +179,7 @@ Publications
 **Jaeyeul Kim**, Jungwan Woo, Ukcheol Shin, Jean Oh, Sunghoon Im<br>
 Arxiv, 2024. (Under review)<br>
 **Winner of the Argoverse 2 LiDAR Scene Flow Challenge at CVPR 2024 WAD**<br>
-[Paper]
+[[Paper](https://arxiv.org/pdf/2407.07995)]
 
 ---
 
