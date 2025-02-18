@@ -296,7 +296,7 @@ International Conference on Control, Automation and Systems (**ICCAS**), 2018.<b
 Scholarships & Awards
 ======
 - **Bronze Award**, Outstanding Paper Award at IPIU, 2025.
-- **Outstanding Research Award**, DGIST EECS, 2024.
+- **Outstanding Research Award**, Electronic Engineering & Computer Sciences (EECS), DGIST, 2024.
 - **Winner**, Argoverse LiDAR Scene Flow Challenge at CVPR WAD, 2024.
 - **DGIST Post-Graduate Research Abroad Award**, 2024 (₩15,000,000).
 - **1st place**, Autonomous Driving A.I challenge (organized by MOLIT 국토교통부), 2023.
