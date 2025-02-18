@@ -177,9 +177,9 @@ Publications
 
 ### Flow4D: Leveraging 4D Voxel Network for LiDAR Scene Flow Estimation
 **Jaeyeul Kim**, Jungwan Woo, Ukcheol Shin, Jean Oh, Sunghoon Im<br>
-RA-L, 2025.<br>
+IEEE Robotics and Automation Letters (**RA-L**), 2025.<br>
 **Winner of the Argoverse 2 LiDAR Scene Flow Challenge at CVPR 2024 WAD**<br>
-[[Paper](https://arxiv.org/pdf/2407.07995)]
+[[Paper](https://ieeexplore.ieee.org/document/10887254)]
 
 ---
 
@@ -295,6 +295,8 @@ International Conference on Control, Automation and Systems (**ICCAS**), 2018.<b
 
 Scholarships & Awards
 ======
+- **Bronze Award**, Outstanding Paper Award at IPIU, 2025.
+- **Outstanding Research Award**, DGIST EECS, 2024.
 - **Winner**, Argoverse LiDAR Scene Flow Challenge at CVPR WAD, 2024.
 - **DGIST Post-Graduate Research Abroad Award**, 2024 (₩15,000,000).
 - **1st place**, Autonomous Driving A.I challenge (organized by MOLIT 국토교통부), 2023.
