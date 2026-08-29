@@ -1,0 +1,1543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jaeyeul Kim</title>
+  <meta name="author" content="Jaeyeul Kim">
+  <meta name="description"
+    content="Jaeyeul Kim is a Ph.D. student in EECS at DGIST, researching autonomous driving at the DGIST Computer Vision Lab: LiDAR segmentation, detection, tracking, forecasting, and planning.">
+  <link rel="canonical" href="https://jykim94.github.io/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Jaeyeul Kim">
+  <meta property="og:title" content="Jaeyeul Kim — Ph.D. Student at DGIST">
+  <meta property="og:description"
+    content="Autonomous driving research: LiDAR segmentation, detection, tracking, forecasting, and planning. DGIST Computer Vision Lab.">
+  <meta property="og:url" content="https://jykim94.github.io/">
+  <meta property="og:image" content="https://jykim94.github.io/images/profile_photo.jpg">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Jaeyeul Kim — Ph.D. Student at DGIST">
+  <meta name="twitter:description"
+    content="Autonomous driving research: LiDAR segmentation, detection, tracking, forecasting, and planning. DGIST Computer Vision Lab.">
+  <meta name="twitter:image" content="https://jykim94.github.io/images/profile_photo.jpg">
+
+  <link rel="icon" href="images/favicon.ico" sizes="32x32">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+  <!-- Applied before first paint so a saved theme choice never flashes the other theme -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+      } catch (e) { /* private mode: fall back to the system preference */ }
+    })();
+  </script>
+
+  <style>
+    :root {
+      color-scheme: light;
+      --theme-color: #4285f4;
+      --theme-hover: #2a5db0;
+      --text-color: #333;
+      --heading-color: #222;
+      --muted: #6c757d;
+      --divider: #e8e8e8;
+      --divider-soft: #f0f0f0;
+      --bg: #fff;
+      --nav-bg: rgba(255, 255, 255, .92);
+      --tint: rgba(66, 133, 244, .04);
+      --news-date: #888;
+      --abs-bg: #f8f6ff;
+      --abs-accent: #9370db;
+      --abs-text: #444;
+      --award: #b8860b;
+      --highlight: #c62828;
+      --intern: #6a5acd;
+      --badge-bg: rgba(147, 112, 219, .75);
+      --shadow-profile: 0 4px 15px rgba(0, 0, 0, .08);
+      --shadow-thumb: 0 2px 8px rgba(0, 0, 0, .06);
+      --shadow-thumb-hover: 0 6px 18px rgba(0, 0, 0, .16);
+      --logo-plate: transparent;
+      --logo-pad: 0;
+    }
+
+    /* Dark palette. Defined for the system default (no data-theme stamped) and
+       again for an explicit toggle, so both directions of the toggle win. */
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        color-scheme: dark;
+        --theme-color: #6ea4ff;
+        --theme-hover: #9dc0ff;
+        --text-color: #c4ccd6;
+        --heading-color: #e8eef6;
+        --muted: #8b949e;
+        --divider: #262c36;
+        --divider-soft: #1e242c;
+        --bg: #0d1117;
+        --nav-bg: rgba(13, 17, 23, .9);
+        --tint: rgba(110, 164, 255, .1);
+        --news-date: #7d8590;
+        --abs-bg: #181a24;
+        --abs-accent: #8a7ad6;
+        --abs-text: #aeb7c2;
+        --award: #d9a441;
+        --highlight: #f07171;
+        --intern: #9b8ff0;
+        --badge-bg: rgba(147, 112, 219, .85);
+        --shadow-profile: 0 4px 15px rgba(0, 0, 0, .55);
+        --shadow-thumb: 0 2px 8px rgba(0, 0, 0, .45);
+        --shadow-thumb-hover: 0 6px 18px rgba(0, 0, 0, .65);
+        --logo-plate: #fff;
+        --logo-pad: 6px;
+      }
+    }
+
+    :root[data-theme="dark"] {
+      color-scheme: dark;
+      --theme-color: #6ea4ff;
+      --theme-hover: #9dc0ff;
+      --text-color: #c4ccd6;
+      --heading-color: #e8eef6;
+      --muted: #8b949e;
+      --divider: #262c36;
+      --divider-soft: #1e242c;
+      --bg: #0d1117;
+      --nav-bg: rgba(13, 17, 23, .9);
+      --tint: rgba(110, 164, 255, .1);
+      --news-date: #7d8590;
+      --abs-bg: #181a24;
+      --abs-accent: #8a7ad6;
+      --abs-text: #aeb7c2;
+      --award: #d9a441;
+      --highlight: #f07171;
+      --intern: #9b8ff0;
+      --badge-bg: rgba(147, 112, 219, .85);
+      --shadow-profile: 0 4px 15px rgba(0, 0, 0, .55);
+      --shadow-thumb: 0 2px 8px rgba(0, 0, 0, .45);
+      --shadow-thumb-hover: 0 6px 18px rgba(0, 0, 0, .65);
+      --logo-plate: #fff;
+      --logo-pad: 6px;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 1.7;
+      color: var(--text-color);
+      background: var(--bg);
+      margin: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    a {
+      color: var(--theme-color);
+      text-decoration: none;
+      transition: color .2s;
+    }
+
+    a:hover {
+      color: var(--theme-hover);
+    }
+
+    /* Navbar */
+    .navbar {
+      border-bottom: 1px solid var(--divider);
+      padding: 14px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--nav-bg);
+      backdrop-filter: blur(10px);
+    }
+
+    .navbar .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .navbar-brand {
+      font-weight: 500;
+      font-size: 18px;
+      color: var(--heading-color);
+      text-decoration: none;
+    }
+
+    .navbar-brand:hover {
+      color: var(--theme-color);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 24px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-links a {
+      color: var(--text-color);
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    .nav-links a:hover {
+      color: var(--theme-color);
+    }
+
+    .theme-toggle {
+      display: flex;
+      align-items: center;
+      padding: 0;
+      border: none;
+      background: none;
+      color: var(--text-color);
+      font-size: 15px;
+      line-height: 1;
+      cursor: pointer;
+      transition: color .2s;
+    }
+
+    .theme-toggle:hover {
+      color: var(--theme-color);
+    }
+
+    /* Profile */
+    .profile {
+      display: flex;
+      align-items: flex-start;
+      gap: 40px;
+      padding: 60px 0 40px;
+    }
+
+    .profile-img-wrap {
+      flex-shrink: 0;
+    }
+
+    .profile-img-box {
+      position: relative;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      overflow: hidden;
+      box-shadow: var(--shadow-profile);
+      cursor: pointer;
+    }
+
+    .profile-img-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: opacity .3s;
+    }
+
+    .profile-img-box .hover-img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+    }
+
+    .profile-img-box:hover .main-img {
+      opacity: 0;
+    }
+
+    .profile-img-box:hover .hover-img {
+      opacity: 1;
+    }
+
+    .profile-text h1 {
+      font-size: 36px;
+      font-weight: 500;
+      margin: 0 0 14px;
+      color: var(--heading-color);
+    }
+
+    .profile-text h1 .name-ko {
+      font-size: 22px;
+      font-weight: 400;
+      color: var(--muted);
+      margin-left: 4px;
+      white-space: nowrap;
+    }
+
+    .profile-text p {
+      margin: 0 0 10px;
+      font-size: 15px;
+      line-height: 1.8;
+    }
+
+    /* Social */
+    .social {
+      display: flex;
+      gap: 12px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+
+    .social a {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--muted);
+      font-size: 13px;
+      padding: 5px 12px;
+      border: 1px solid var(--divider);
+      border-radius: 5px;
+      transition: all .2s;
+    }
+
+    .social a:hover {
+      color: var(--theme-color);
+      border-color: var(--theme-color);
+      background: var(--tint);
+    }
+
+    .social a i {
+      font-size: 15px;
+    }
+
+    /* Section */
+    section {
+      padding: 28px 0;
+    }
+
+    .sec-title {
+      font-size: 22px;
+      font-weight: 500;
+      color: var(--heading-color);
+      margin: 0 0 18px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid var(--theme-color);
+      display: inline-block;
+    }
+
+    /* News */
+    .news-year {
+      font-size: 16px;
+      font-weight: 500;
+      color: var(--heading-color);
+      margin: 18px 0 6px;
+    }
+
+    .news-year:first-child {
+      margin-top: 0;
+    }
+
+    .news-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .news-list li {
+      display: flex;
+      gap: 14px;
+      padding: 6px 0;
+      font-size: 14px;
+      line-height: 1.6;
+      border-bottom: 1px solid var(--divider-soft);
+    }
+
+    .news-list li:last-child {
+      border-bottom: none;
+    }
+
+    .news-date {
+      flex-shrink: 0;
+      min-width: 72px;
+      font-family: 'Roboto Mono', monospace;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--news-date);
+    }
+
+    /* News collapse */
+    .news-hidden {
+      display: none;
+    }
+
+    .news-toggle {
+      margin-top: 12px;
+      padding: 5px 14px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      color: var(--muted);
+      background: none;
+      border: 1px solid var(--divider);
+      border-radius: 20px;
+      cursor: pointer;
+      transition: all .2s;
+    }
+
+    .news-toggle:hover {
+      color: var(--theme-color);
+      border-color: var(--theme-color);
+    }
+
+    /* Publications */
+    .pub-note {
+      font-size: 14px;
+      color: var(--muted);
+      margin-bottom: 14px;
+    }
+
+    /* Topic filter */
+    .pub-filter {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .filter-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 13px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 12.5px;
+      font-weight: 400;
+      line-height: 1.4;
+      color: var(--muted);
+      background: none;
+      border: 1px solid var(--divider);
+      border-radius: 20px;
+      cursor: pointer;
+      transition: all .2s;
+    }
+
+    .filter-chip:hover {
+      color: var(--theme-color);
+      border-color: var(--theme-color);
+    }
+
+    .filter-chip.is-active {
+      color: var(--bg);
+      background: var(--theme-color);
+      border-color: var(--theme-color);
+    }
+
+    .filter-chip .count {
+      font-size: 11px;
+      opacity: .7;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .pub.is-filtered {
+      display: none;
+    }
+
+    .pub.is-last-visible {
+      border-bottom: none;
+    }
+
+    .pub {
+      display: flex;
+      gap: 20px;
+      padding: 20px 0;
+      border-bottom: 1px solid var(--divider);
+      align-items: flex-start;
+    }
+
+    .pub:last-child {
+      border-bottom: none;
+    }
+
+    /* Image with overlay badge */
+    .pub-img {
+      flex-shrink: 0;
+      width: 200px;
+      position: relative;
+    }
+
+    .pub-img img {
+      width: 100%;
+      border-radius: 6px;
+      box-shadow: var(--shadow-thumb);
+      display: block;
+      cursor: zoom-in;
+      transition: transform .18s ease, box-shadow .18s ease;
+    }
+
+    .pub-img img:hover {
+      transform: scale(1.03);
+      box-shadow: var(--shadow-thumb-hover);
+    }
+
+    /* Click-to-zoom lightbox for publication teasers */
+    .lightbox {
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 24px;
+      background: rgba(0, 0, 0, .82);
+      cursor: zoom-out;
+      opacity: 0;
+      transition: opacity .18s ease;
+    }
+
+    .lightbox.open {
+      display: flex;
+      opacity: 1;
+    }
+
+    .lightbox-figure {
+      margin: 0;
+      max-width: 100%;
+      max-height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .lightbox-figure img {
+      max-width: 100%;
+      max-height: calc(100vh - 140px);
+      width: auto;
+      height: auto;
+      border-radius: 6px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, .5);
+      cursor: default;
+    }
+
+    .lightbox-caption {
+      color: #f1f1f1;
+      font-size: 13px;
+      line-height: 1.5;
+      text-align: center;
+      max-width: 780px;
+    }
+
+    .lightbox-close {
+      position: absolute;
+      top: 16px;
+      right: 20px;
+      width: 36px;
+      height: 36px;
+      border: none;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, .12);
+      color: #fff;
+      font-size: 20px;
+      line-height: 1;
+      cursor: pointer;
+      transition: background .15s ease;
+    }
+
+    .lightbox-close:hover {
+      background: rgba(255, 255, 255, .25);
+    }
+
+    .pub-img .badge {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: var(--badge-bg);
+      color: #fff;
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 0.2px;
+      padding: 2px 6px;
+      border-radius: 4px 0 4px 0;
+    }
+
+    .pub-img .badge a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .pub-body {
+      flex: 1;
+    }
+
+    .pub-title {
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--heading-color);
+      margin: 0 0 4px;
+      line-height: 1.4;
+    }
+
+    .pub-authors {
+      font-size: 14px;
+      margin: 0 0 3px;
+    }
+
+    .pub-venue {
+      font-size: 14px;
+      color: var(--muted);
+      font-style: italic;
+      margin: 0 0 6px;
+    }
+
+    .pub-links {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-top: 6px;
+      align-items: center;
+    }
+
+    .pub-links a,
+    .pub-links .abs-btn {
+      font-size: 12px;
+      padding: 3px 10px;
+      border-radius: 4px;
+      border: 1px solid var(--divider);
+      color: var(--muted);
+      cursor: pointer;
+      background: none;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      transition: all .2s;
+      line-height: 1.4;
+      display: inline-flex;
+      align-items: center;
+      text-align: center;
+      text-decoration: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+    }
+
+    .pub-links a:hover,
+    .pub-links .abs-btn:hover {
+      color: var(--theme-color);
+      border-color: var(--theme-color);
+    }
+
+    .pub-abstract {
+      display: none;
+      margin-top: 10px;
+      padding: 12px 14px;
+      background: var(--abs-bg);
+      border-left: 3px solid var(--abs-accent);
+      border-radius: 0 6px 6px 0;
+      font-size: 13px;
+      line-height: 1.7;
+      color: var(--abs-text);
+    }
+
+    .pub-abstract.open {
+      display: block;
+    }
+
+    .pub-award {
+      color: var(--award);
+      font-weight: 500;
+      font-size: 13px;
+    }
+
+    .pub-highlight {
+      color: var(--highlight);
+      font-weight: 700;
+      font-size: 13px;
+    }
+
+    .pub-intern {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 12px;
+      font-weight: 400;
+      font-style: italic;
+      color: var(--intern);
+      margin-top: 6px;
+    }
+
+    .pub-intern i {
+      font-size: 13px;
+    }
+
+    /* Experience */
+    .exp {
+      display: flex;
+      gap: 24px;
+      padding: 14px 0;
+      align-items: center;
+      border-bottom: 1px solid var(--divider-soft);
+    }
+
+    .exp:last-child {
+      border-bottom: none;
+    }
+
+    .exp-logo {
+      flex-shrink: 0;
+      width: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .exp-logo img {
+      max-width: 100%;
+      max-height: 75px;
+      object-fit: contain;
+      background: var(--logo-plate);
+      padding: var(--logo-pad);
+      border-radius: 6px;
+    }
+
+    .exp-text {
+      flex: 1;
+    }
+
+    .exp-text .title {
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--heading-color);
+      margin: 0;
+    }
+
+    .exp-text .detail {
+      font-size: 14px;
+      margin: 0;
+    }
+
+    .exp-text .date {
+      font-size: 13px;
+      color: var(--muted);
+      margin: 0;
+    }
+
+    /* Activities */
+    .act-cat {
+      font-size: 16px;
+      font-weight: 500;
+      color: var(--heading-color);
+      margin: 22px 0 8px;
+    }
+
+    .act-cat:first-child {
+      margin-top: 0;
+    }
+
+    .act-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .act-list li {
+      padding: 4px 0;
+      font-size: 14px;
+      line-height: 1.6;
+      padding-left: 16px;
+      position: relative;
+    }
+
+    .act-list li::before {
+      content: '•';
+      position: absolute;
+      left: 0;
+      color: var(--theme-color);
+    }
+
+    /* Footer */
+    .footer {
+      border-top: 1px solid var(--divider);
+      padding: 28px 0;
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .footer p {
+      font-size: 13px;
+      color: var(--muted);
+      margin: 3px 0;
+    }
+
+    .footer a {
+      color: var(--muted);
+    }
+
+    .footer a:hover {
+      color: var(--theme-color);
+    }
+
+    .footer-globe-row {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      margin: 16px 0;
+    }
+
+    .footer-credits {
+      position: absolute;
+      right: 0;
+      top: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 4px;
+      font-size: 12px;
+    }
+
+    .footer-credits a {
+      color: var(--muted);
+    }
+
+    .footer-credits a:hover {
+      color: var(--theme-color);
+    }
+
+    .clustrmaps-wrap {
+      display: flex;
+      justify-content: center;
+    }
+
+    .clustrmaps-wrap>div {
+      width: 60px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .profile {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 24px;
+        padding: 40px 0 30px;
+      }
+
+      .profile-img-box {
+        width: 160px;
+        height: 160px;
+      }
+
+      .profile-text h1 {
+        font-size: 28px;
+      }
+
+      .profile-text h1 .name-ko {
+        font-size: 18px;
+      }
+
+      .social {
+        justify-content: center;
+      }
+
+      .pub {
+        flex-direction: column;
+        gap: 14px;
+      }
+
+      .pub-img {
+        width: 100%;
+        max-width: 280px;
+      }
+
+      .exp {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+      }
+
+      .news-list li {
+        flex-direction: column;
+        gap: 2px;
+      }
+
+      .nav-links {
+        gap: 14px;
+      }
+    }
+
+    /* Neutral plate shown where a paper has no teaser image, so every entry
+       keeps the same two-column rhythm as the ones that do. */
+    .pub-img .plate {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 116px;
+      border: 1px dashed var(--divider);
+      border-radius: 6px;
+      background: var(--tint);
+      color: var(--muted);
+      opacity: .65;
+      font-size: 26px;
+    }
+
+    /* Text plate standing in for an institution logo */
+    .exp-logo .plate {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100px;
+      height: 58px;
+      border: 1px solid var(--divider);
+      border-radius: 8px;
+      background: var(--tint);
+      color: var(--heading-color);
+      font-family: 'Roboto Mono', monospace;
+      font-size: 12.5px;
+      font-weight: 500;
+      letter-spacing: .03em;
+      text-align: center;
+      padding: 4px;
+      line-height: 1.2;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#">Jaeyeul Kim</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#activities">Activities</a></li>
+        <li>
+          <button class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Dark mode">
+            <i class="fas fa-moon"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Profile / About -->
+  <div class="container">
+    <div class="profile" id="about">
+      <div class="profile-img-wrap">
+        <div class="profile-img-box">
+          <img class="main-img" src="images/profile_photo.jpg" alt="Jaeyeul Kim">
+          <img class="hover-img" src="images/profile_photo_2.jpg" alt="Jaeyeul Kim">
+        </div>
+      </div>
+      <div class="profile-text">
+        <h1>Jaeyeul Kim</h1>
+        <p>
+          I am a Ph.D. student in the Department of Electrical Engineering and Computer Science (EECS) at
+          <a href="https://www.dgist.ac.kr/">DGIST</a>, South Korea, conducting research on autonomous driving
+          under the supervision of <a href="https://sunghoonim.github.io/">Prof. Sunghoon Im</a> at the
+          <a href="https://cvlab.dgist.ac.kr/">DGIST Computer Vision Lab</a>.
+        </p>
+        <p>
+          Specifically, I have worked on <b>LiDAR-based segmentation, detection, tracking, and forecasting</b>.
+          My current research interest is in <b>autonomous vehicle planning</b>. From April to October 2024 I was a
+          visiting researcher at the Robotics Institute, <a href="https://www.ri.cmu.edu/">Carnegie Mellon
+            University</a>, Pittsburgh, US.
+        </p>
+        <div class="social">
+          <a href="mailto:jykim94@dgist.ac.kr"><i class="fas fa-envelope"></i> Email</a>
+          <a href="https://github.com/jykim94"><i class="fab fa-github"></i> GitHub</a>
+          <!-- Add your own links here when you have them, e.g.:
+          <a href="https://scholar.google.com/citations?user=YOUR_ID"><i class="ai ai-google-scholar"></i> Scholar</a>
+          <a href="https://www.linkedin.com/in/YOUR_ID/"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          <a href="files/CV.pdf" target="_blank"><i class="fas fa-file-pdf"></i> CV</a>
+          -->
+        </div>
+      </div>
+    </div>
+
+    <!-- News -->
+    <section id="news">
+      <h2 class="sec-title">News</h2>
+
+      <div class="news-year">2025</div>
+      <ul class="news-list">
+        <li><span class="news-date">2025</span><span>Flow4D accepted to <a
+              href="https://ieeexplore.ieee.org/document/10887254"><b>IEEE Robotics and Automation Letters
+                (RA-L)</b></a>.</span></li>
+        <li><span class="news-date">2025</span><span>Received the <span class="pub-award">Bronze Award</span>
+            (Outstanding Paper Award) at <b>IPIU 2025</b>.</span></li>
+      </ul>
+
+      <div class="news-year">2024</div>
+      <ul class="news-list">
+        <li><span class="news-date">2024</span><span>One paper accepted to <a href="https://eccv2024.ecva.net/"><b>ECCV
+                2024</b></a>.</span></li>
+        <li><span class="news-date">2024</span><span>One paper accepted to <a
+              href="https://iros2024-abudhabi.org/"><b>IROS 2024</b></a>.</span></li>
+        <li><span class="news-date">2024</span><span>Received the <span class="pub-award">Outstanding Research
+              Award</span> from EECS, DGIST.</span></li>
+        <li><span class="news-date">Apr 2024</span><span>Started a <span class="pub-award">Visiting Researcher</span>
+            position at the Robotics Institute, <a href="https://www.ri.cmu.edu/"><b>Carnegie Mellon University</b></a>
+            (Apr. 2024 – Oct. 2024).</span></li>
+        <li><span class="news-date">2024</span><span>Received the <span class="pub-award">DGIST Post-Graduate Research
+              Abroad Award</span>.</span></li>
+        <li><span class="news-date">2024</span><span><span class="pub-highlight">Winner</span> of the Argoverse 2 LiDAR
+            Scene Flow Challenge at <b>CVPR 2024 WAD</b>.</span></li>
+      </ul>
+
+      <div class="news-year">2023</div>
+      <ul class="news-list">
+        <li><span class="news-date">2023</span><span>One paper accepted to <b>IEEE Access</b>.</span></li>
+        <li><span class="news-date">2023</span><span><span class="pub-highlight">1st place</span>, Autonomous Driving
+            A.I. Challenge (organized by MOLIT, 국토교통부).</span></li>
+        <li><span class="news-date">2023</span><span>Received the <span class="pub-award">Best Robot Vision Paper
+              Award</span> from the Asian Federation of Computer Vision (AFCV).</span></li>
+        <li><span class="news-date">2023</span><span><span class="pub-award">Honorable Mention</span>, Argoverse
+            Forecasting Challenge at <b>CVPR WAD 2023</b>.</span></li>
+      </ul>
+
+      <div class="news-year">2022</div>
+      <ul class="news-list">
+        <li><span class="news-date">2022</span><span>RVMOS accepted to <a
+              href="https://ieeexplore.ieee.org/abstract/document/9806157"><b>IEEE Robotics and Automation Letters
+                (RA-L / IROS)</b></a>.</span></li>
+        <li><span class="news-date">2022</span><span>One paper accepted to <b>IEEE Access</b>.</span></li>
+        <li><span class="news-date">2022</span><span><span class="pub-award">2nd place</span>, Autonomous Driving A.I.
+            Challenge (organized by MOLIT, 국토교통부).</span></li>
+        <li><span class="news-date">2022</span><span><span class="pub-award">3rd place</span>, ECCV Workshop on 3D
+            Perception for Autonomous Driving.</span></li>
+      </ul>
+
+      <div class="news-year">2021</div>
+      <ul class="news-list">
+        <li><span class="news-date">Aug 2021</span><span>Started the Ph.D. course in EECS at <a
+              href="https://www.dgist.ac.kr/"><b>DGIST</b></a>.</span></li>
+        <li><span class="news-date">2021</span><span>Awarded the <span class="pub-award">DGIST Presidential
+              Fellowship</span>.</span></li>
+      </ul>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications">
+      <h2 class="sec-title">Publications</h2>
+      <p class="pub-note">* indicates equal contribution.</p>
+
+      <!-- Counts are filled in by script so they can never drift from the list below -->
+      <div class="pub-filter" role="group" aria-label="Filter publications">
+        <button type="button" class="filter-chip is-active" data-filter="selected" aria-pressed="true">Selected</button>
+        <button type="button" class="filter-chip" data-filter="all" aria-pressed="false">All</button>
+      </div>
+
+      <!-- RA-L 2025 - Flow4D -->
+      <div class="pub" data-selected>
+        <div class="pub-img">
+          <div class="badge">RA-L 2025</div>
+          <img src="images/FLOW2024.png" alt="Flow4D">
+        </div>
+        <div class="pub-body">
+          <div class="pub-title">Flow4D: Leveraging 4D Voxel Network for LiDAR Scene Flow Estimation</div>
+          <div class="pub-authors"><b><u>Jaeyeul Kim</u></b>, Jungwan Woo, Ukcheol Shin, Jean Oh, Sunghoon Im</div>
+          <div class="pub-venue">IEEE Robotics and Automation Letters (RA-L), 2025</div>
+          <span class="pub-highlight">Winner of the Argoverse 2 LiDAR Scene Flow Challenge at CVPR 2024 WAD</span>
+          <div class="pub-links">
+            <a href="https://ieeexplore.ieee.org/document/10887254">Paper</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ECCV 2024 -->
+      <div class="pub" data-selected>
+        <div class="pub-img">
+          <div class="badge">ECCV 2024</div>
+          <img src="images/ECCV2024.png" alt="Rethinking LiDAR Domain Generalization">
+        </div>
+        <div class="pub-body">
+          <div class="pub-title">Rethinking LiDAR Domain Generalization: Single Source as Multiple Density Domains</div>
+          <div class="pub-authors"><b><u>Jaeyeul Kim*</u></b>, Jungwan Woo*, Jeonghoon Kim, Sunghoon Im</div>
+          <div class="pub-venue">European Conference on Computer Vision (ECCV), 2024</div>
+        </div>
+      </div>
+
+      <!-- IROS 2024 -->
+      <div class="pub" data-selected>
+        <div class="pub-img">
+          <div class="badge">IROS 2024</div>
+          <img src="images/IROS2024.png" alt="Density-aware Domain Generalization">
+        </div>
+        <div class="pub-body">
+          <div class="pub-title">Density-aware Domain Generalization for LiDAR Semantic Segmentation</div>
+          <div class="pub-authors"><b><u>Jaeyeul Kim*</u></b>, Jungwan Woo*, Ukcheol Shin, Jean Oh, Sunghoon Im</div>
+          <div class="pub-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2024</div>
+        </div>
+      </div>
+
+      <!-- IEEE Access 2023 -->
+      <div class="pub" data-selected>
+        <div class="pub-img">
+          <div class="badge">IEEE Access 2023</div>
+          <img src="images/Automatic.png" alt="Automatic Extrinsic Calibration with Point-Line Correspondences">
+        </div>
+        <div class="pub-body">
+          <div class="pub-title">Automatic Extrinsic Calibration of a Camera and a 2D LiDAR with Point-Line
+            Correspondences</div>
+          <div class="pub-authors"><b><u>Jaeyeul Kim</u></b>, Jongeun Ha</div>
+          <div class="pub-venue">IEEE Access, 2023</div>
+          <div class="pub-links">
+            <a href="https://ieeexplore.ieee.org/abstract/document/10190560">Paper</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CVPRw 2023 -->
+      <div class="pub" data-selected>
+        <div class="pub-img">
+          <div class="badge">CVPRw 2023</div>
+          <img src="images/CVPRw.png" alt="Motion Forecasting via Coordinate Transformations">
+        </div>
+        <div class="pub-body">
+          <div class="pub-title">Motion Forecasting via Coordinate Transformations and Object Trajectory Modifications
+          </div>
+          <div class="pub-authors">Jungwan Woo*, <b><u>Jaeyeul Kim*</u></b>, Sunghoon Im</div>
+          <div class="pub-venue">CVPR Workshop on Autonomous Driving (CVPRw), 2023</div>
+          <span class="pub-award">2nd place in the challenge</span>
+          <div class="pub-links">
+            <a href="https://www.neeharperi.com/files/dgist-cvlab_techreport_cvprw23.pdf">Technical report</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ECCVw 2022 -->
+      <div class="pub">
+        <div class="pub-img">
+          <div class="badge">ECCVw 2022</div>
+          <img src="images/ECCVw.png" alt="LiDAR 3D Object Detection via Self-Training and Knowledge Distillation">
+        </div>
+        <div class="pub-body">
+          <div class="pub-title">LiDAR 3D Object Detection via Self-Training and Knowledge Distillation</div>
+          <div class="pub-authors">Jungwan Woo*, <b><u>Jaeyeul Kim*</u></b>, Sunghoon Im</div>
+          <div class="pub-venue">ECCV Workshop on 3D Perception for Autonomous Driving (ECCVw), 2022</div>
+          <span class="pub-award">3rd place in the challenge</span>
+        </div>
+      </div>
+
+      <!-- IEEE Access 2022 -->
+      <div class="pub">
+        <div class="pub-img">
+          <div class="badge">IEEE Access 2022</div>
+          <img src="images/Weakly.png" alt="Weakly Supervised Foreground Object Detection Network">
+        </div>
+        <div class="pub-body">
+          <div class="pub-title">Weakly Supervised Foreground Object Detection Network Using Background Model Image
+          </div>
+          <div class="pub-authors"><b><u>Jaeyeul Kim</u></b>, Jongeun Ha</div>
+          <div class="pub-venue">IEEE Access, 2022</div>
+          <div class="pub-links">
+            <a href="https://ieeexplore.ieee.org/abstract/document/9910159">Paper</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- RA-L / IROS 2022 - RVMOS -->
+      <div class="pub" data-selected>
+        <div class="pub-img">
+          <div class="badge">RA-L / IROS 2022</div>
+          <img src="images/rvmos.png" alt="RVMOS">
+        </div>
+        <div class="pub-body">
+          <div class="pub-title">RVMOS: Range-View Moving Object Segmentation Leveraged by Semantic and Motion Features
+          </div>
+          <div class="pub-authors"><b><u>Jaeyeul Kim*</u></b>, Jungwan Woo*, Sunghoon Im</div>
+          <div class="pub-venue">IEEE Robotics and Automation Letters (RA-L / IROS), 2022</div>
+          <div class="pub-links">
+            <a href="https://ieeexplore.ieee.org/abstract/document/9806157">Paper</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- IEEE Access 2021 -->
+      <div class="pub">
+        <div class="pub-img">
+          <div class="badge">IEEE Access 2021</div>
+          <div class="plate" aria-hidden="true"><i class="far fa-file-lines"></i></div>
+        </div>
+        <div class="pub-body">
+          <div class="pub-title">Spatio-temporal Data Augmentation for Visual Surveillance</div>
+          <div class="pub-authors"><b><u>Jaeyeul Kim</u></b>, Jongeun Ha</div>
+          <div class="pub-venue">IEEE Access, 2021</div>
+          <div class="pub-links">
+            <a href="https://ieeexplore.ieee.org/abstract/document/9650910">Paper</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- IEEE Access 2021 -->
+      <div class="pub">
+        <div class="pub-img">
+          <div class="badge">IEEE Access 2021</div>
+          <div class="plate" aria-hidden="true"><i class="far fa-file-lines"></i></div>
+        </div>
+        <div class="pub-body">
+          <div class="pub-title">Generation of Background Model Image Using Foreground Model</div>
+          <div class="pub-authors"><b><u>Jaeyeul Kim</u></b>, Jongeun Ha</div>
+          <div class="pub-venue">IEEE Access, 2021</div>
+          <div class="pub-links">
+            <a href="https://ieeexplore.ieee.org/abstract/document/9535139">Paper</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- IEEE Access 2020 -->
+      <div class="pub">
+        <div class="pub-img">
+          <div class="badge">IEEE Access 2020</div>
+          <img src="images/Exrinsic_2020.png" alt="Extrinsic Calibration using a Dummy Camera">
+        </div>
+        <div class="pub-body">
+          <div class="pub-title">Extrinsic Calibration of a Camera and a 2D LiDAR using a Dummy Camera with IR Cut
+            Filter Removed</div>
+          <div class="pub-authors"><b><u>Jaeyeul Kim</u></b>, Jongeun Ha</div>
+          <div class="pub-venue">IEEE Access, 2020</div>
+          <div class="pub-links">
+            <a href="https://ieeexplore.ieee.org/abstract/document/9216096">Paper</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- IEEE Access 2020 -->
+      <div class="pub">
+        <div class="pub-img">
+          <div class="badge">IEEE Access 2020</div>
+          <div class="plate" aria-hidden="true"><i class="far fa-file-lines"></i></div>
+        </div>
+        <div class="pub-body">
+          <div class="pub-title">Foreground Objects Detection Using a Fully Convolutional Network with a Background
+            Model Image and Multiple Original Images</div>
+          <div class="pub-authors"><b><u>Jaeyeul Kim</u></b>, Jongeun Ha</div>
+          <div class="pub-venue">IEEE Access, 2020</div>
+          <div class="pub-links">
+            <a href="https://ieeexplore.ieee.org/abstract/document/9183919">Paper</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ICCAS 2019 -->
+      <div class="pub">
+        <div class="pub-img">
+          <div class="badge">ICCAS 2019</div>
+          <div class="plate" aria-hidden="true"><i class="far fa-file-lines"></i></div>
+        </div>
+        <div class="pub-body">
+          <div class="pub-title">Automatic Extrinsic Calibration of a Camera and Laser Range Finder using Constraints
+            Fusion</div>
+          <div class="pub-authors"><b><u>Jaeyeul Kim</u></b>, Jongeun Ha</div>
+          <div class="pub-venue">International Conference on Control, Automation and Systems (ICCAS), 2019</div>
+        </div>
+      </div>
+
+      <!-- ICCAS 2018 -->
+      <div class="pub">
+        <div class="pub-img">
+          <div class="badge">ICCAS 2018</div>
+          <div class="plate" aria-hidden="true"><i class="far fa-file-lines"></i></div>
+        </div>
+        <div class="pub-body">
+          <div class="pub-title">Extrinsic Calibration of Camera and Laser Range Finder using a Dummy Camera without IR
+            Cut Filter</div>
+          <div class="pub-authors"><b><u>Jaeyeul Kim</u></b>, Jongeun Ha</div>
+          <div class="pub-venue">International Conference on Control, Automation and Systems (ICCAS), 2018</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Research Experience -->
+    <section id="experience">
+      <h2 class="sec-title">Education &amp; Research Experience</h2>
+
+      <div class="exp">
+        <div class="exp-logo">
+          <div class="plate">CMU</div>
+        </div>
+        <div class="exp-text">
+          <p class="title">Visiting Researcher</p>
+          <p class="detail">Robotics Institute, Carnegie Mellon University (CMU), Pittsburgh, US</p>
+          <p class="date">Apr. 2024 – Oct. 2024</p>
+        </div>
+      </div>
+
+      <div class="exp">
+        <div class="exp-logo">
+          <div class="plate">DGIST</div>
+        </div>
+        <div class="exp-text">
+          <p class="title">Ph.D. Course in Electrical Engineering and Computer Science (Advisor: Sunghoon Im)</p>
+          <p class="detail">Daegu Gyeongbuk Institute of Science and Technology (DGIST), South Korea</p>
+          <p class="date">Aug. 2021 – Present</p>
+        </div>
+      </div>
+
+      <div class="exp">
+        <div class="exp-logo">
+          <div class="plate">SEOUL<br>TECH</div>
+        </div>
+        <div class="exp-text">
+          <p class="title">M.S. in Automotive Engineering</p>
+          <p class="detail">Seoul National University of Science and Technology (SEOULTECH), South Korea</p>
+          <p class="date">Aug. 2018 – Aug. 2021</p>
+        </div>
+      </div>
+
+      <div class="exp">
+        <div class="exp-logo">
+          <div class="plate">SEOUL<br>TECH</div>
+        </div>
+        <div class="exp-text">
+          <p class="title">B.S. in Mechanical and Automotive Engineering</p>
+          <p class="detail">Seoul National University of Science and Technology (SEOULTECH), South Korea</p>
+          <p class="date">Mar. 2012 – Aug. 2018</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Academic Activities -->
+    <section id="activities">
+      <h2 class="sec-title">Academic Activities</h2>
+
+      <div class="act-cat">Scholarships &amp; Awards</div>
+      <ul class="act-list">
+        <li><b>Bronze Award</b>, Outstanding Paper Award at IPIU, 2025</li>
+        <li><b>Outstanding Research Award</b>, EECS, DGIST, 2024</li>
+        <li><b>Winner</b>, Argoverse LiDAR Scene Flow Challenge at CVPR WAD, 2024</li>
+        <li><b>DGIST Post-Graduate Research Abroad Award</b>, 2024 (₩15,000,000)</li>
+        <li><b>1st place</b>, Autonomous Driving A.I. Challenge (organized by MOLIT 국토교통부), 2023</li>
+        <li><b>Honorable Mention</b>, Argoverse Forecasting Challenge at CVPR WAD, 2023</li>
+        <li><b>Best Robot Vision Paper Award</b>, Asian Federation of Computer Vision (AFCV), 2023</li>
+        <li><b>2nd place</b>, Autonomous Driving A.I. Challenge (organized by MOLIT 국토교통부), 2022</li>
+        <li><b>3rd place</b>, ECCV Workshop on 3D Perception for Autonomous Driving, 2022</li>
+        <li><b>DGIST Presidential Fellowship</b>, 2021 (₩24,000,000)</li>
+        <li><b>SEOULTECH Graduate School Admission Scholarship</b>, 2018</li>
+        <li><b>Bronze Award</b>, SoC Robot War-HURO Competition (organized by KAIST SDIA), 2018</li>
+        <li><b>Bronze Award</b>, SoC Robot War-HURO Competition (organized by KAIST SDIA), 2017</li>
+      </ul>
+
+      <div class="act-cat">Reviewer</div>
+      <ul class="act-list">
+        <li>IEEE International Conference on Robotics and Automation (<b>ICRA</b>)</li>
+        <li>IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS</b>)</li>
+        <li>IEEE Robotics and Automation Letters (<b>RA-L</b>)</li>
+        <li>IEEE Sensors Journal</li>
+        <li>NeurIPS Track Datasets and Benchmarks</li>
+        <li>Scientific Reports</li>
+        <li>The Visual Computer</li>
+        <li>International Journal of Intelligent Robotics and Applications</li>
+      </ul>
+
+      <div class="act-cat">Skills</div>
+      <ul class="act-list">
+        <li>Python, PyTorch, MATLAB, C++</li>
+      </ul>
+
+      <div class="act-cat">Other Experience</div>
+      <ul class="act-list">
+        <li>Republic of Korea Air Force, 2012 – 2014</li>
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; Jaeyeul Kim | Last updated: Aug. 2026</p>
+      <p>Design inspired by <a href="https://jihun999.github.io/">Jihun Park</a> / <a
+          href="https://github.com/alshedivat/al-folio">al-folio</a> / <a href="https://jonbarron.info/">Jon Barron</a>
+      </p>
+    </footer>
+  </div>
+
+  <!-- Lightbox overlay for publication teaser images -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Enlarged teaser image">
+    <button class="lightbox-close" type="button" aria-label="Close">&times;</button>
+    <figure class="lightbox-figure">
+      <img id="lightbox-img" src="" alt="">
+      <figcaption class="lightbox-caption" id="lightbox-caption"></figcaption>
+    </figure>
+  </div>
+
+  <script>
+    function toggleAbstract(btn) {
+      var abs = btn.closest('.pub-body').querySelector('.pub-abstract');
+      if (abs) abs.classList.toggle('open');
+    }
+
+    (function () {
+      var box = document.getElementById('lightbox');
+      var boxImg = document.getElementById('lightbox-img');
+      var boxCap = document.getElementById('lightbox-caption');
+
+      function open(img) {
+        var pub = img.closest('.pub');
+        var title = pub ? pub.querySelector('.pub-title') : null;
+        boxImg.src = img.currentSrc || img.src;
+        boxImg.alt = img.alt || '';
+        boxCap.textContent = title ? title.textContent.trim() : (img.alt || '');
+        box.classList.add('open');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function close() {
+        box.classList.remove('open');
+        boxImg.src = '';
+        document.body.style.overflow = '';
+      }
+
+      document.addEventListener('click', function (e) {
+        var img = e.target.closest('.pub-img img');
+        if (img) {
+          e.preventDefault();
+          open(img);
+        }
+      });
+
+      // Click anywhere on the backdrop (or the close button) dismisses it;
+      // clicks on the enlarged image itself do not.
+      box.addEventListener('click', function (e) {
+        if (e.target !== boxImg) close();
+      });
+
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && box.classList.contains('open')) close();
+      });
+    })();
+
+    // Theme toggle. With no explicit choice the page follows the OS setting;
+    // clicking pins a theme and remembers it.
+    (function () {
+      var root = document.documentElement;
+      var btn = document.querySelector('.theme-toggle');
+      if (!btn) return;
+      var icon = btn.querySelector('i');
+      var media = window.matchMedia('(prefers-color-scheme: dark)');
+
+      function isDark() {
+        var t = root.getAttribute('data-theme');
+        return t ? t === 'dark' : media.matches;
+      }
+
+      function sync() {
+        var dark = isDark();
+        icon.className = dark ? 'fas fa-sun' : 'fas fa-moon';
+        btn.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+        btn.setAttribute('title', dark ? 'Light mode' : 'Dark mode');
+      }
+
+      btn.addEventListener('click', function () {
+        var next = isDark() ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        try { localStorage.setItem('theme', next); } catch (e) { /* ignore */ }
+        sync();
+      });
+
+      if (media.addEventListener) media.addEventListener('change', sync);
+      sync();
+    })();
+
+    // Publication filter: selected papers by default, full list on request
+    (function () {
+      var bar = document.querySelector('.pub-filter');
+      if (!bar) return;
+      var pubs = [].slice.call(document.querySelectorAll('#publications .pub'));
+      var chips = [].slice.call(bar.querySelectorAll('.filter-chip'));
+
+      function matches(pub, filter) {
+        return filter === 'all' || pub.hasAttribute('data-selected');
+      }
+
+      chips.forEach(function (chip) {
+        var count = document.createElement('span');
+        count.className = 'count';
+        count.textContent = pubs.filter(function (p) { return matches(p, chip.dataset.filter); }).length;
+        chip.appendChild(count);
+      });
+
+      function apply(filter) {
+        var last = null;
+        pubs.forEach(function (p) {
+          var show = matches(p, filter);
+          p.classList.toggle('is-filtered', !show);
+          p.classList.remove('is-last-visible');
+          if (show) last = p;
+        });
+        // the last visible entry drops its divider, as .pub:last-child would
+        if (last) last.classList.add('is-last-visible');
+      }
+
+      bar.addEventListener('click', function (e) {
+        var chip = e.target.closest('.filter-chip');
+        if (!chip) return;
+        chips.forEach(function (c) {
+          var on = c === chip;
+          c.classList.toggle('is-active', on);
+          c.setAttribute('aria-pressed', String(on));
+        });
+        apply(chip.dataset.filter);
+      });
+
+      apply('selected');
+    })();
+
+    // Collapse older news behind a toggle
+    (function () {
+      var news = document.getElementById('news');
+      if (!news) return;
+      // Keep the most recent year expanded and collapse every older year group,
+      // so the cut always lands on a year boundary however the list grows.
+      var lists = news.querySelectorAll('.news-list');
+      if (lists.length <= 1) return;
+
+      var hidden = [];
+      var seenFirstGroup = false;
+      [].forEach.call(news.children, function (el) {
+        if (el.classList.contains('news-list')) {
+          if (seenFirstGroup) hidden.push(el);
+          seenFirstGroup = true;
+        } else if (el.classList.contains('news-year') && seenFirstGroup) {
+          hidden.push(el);
+        }
+      });
+
+      var buried = hidden.reduce(function (n, el) {
+        return n + (el.classList.contains('news-list') ? el.children.length : 0);
+      }, 0);
+      if (!buried) return;
+
+      var open = false;
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'news-toggle';
+
+      function render() {
+        hidden.forEach(function (el) { el.classList.toggle('news-hidden', !open); });
+        btn.textContent = open ? 'Show less' : 'Show ' + buried + ' earlier news';
+        btn.setAttribute('aria-expanded', String(open));
+      }
+
+      btn.addEventListener('click', function () { open = !open; render(); });
+      news.appendChild(btn);
+      render();
+    })();
+  </script>
+</body>
+
+</html>
