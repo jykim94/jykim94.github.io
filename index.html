@@ -1714,18 +1714,20 @@
     (function () {
       var news = document.getElementById('news');
       if (!news) return;
-      // Keep the most recent year expanded and collapse every older year group,
-      // so the cut always lands on a year boundary however the list grows.
+      // Keep the most recent VISIBLE_YEARS year groups expanded and collapse the
+      // rest, so the cut always lands on a year boundary however the list grows.
+      var VISIBLE_YEARS = 2;
       var lists = news.querySelectorAll('.news-list');
-      if (lists.length <= 1) return;
+      if (lists.length <= VISIBLE_YEARS) return;
 
       var hidden = [];
-      var seenFirstGroup = false;
+      var groupsSeen = 0;
       [].forEach.call(news.children, function (el) {
-        if (el.classList.contains('news-list')) {
-          if (seenFirstGroup) hidden.push(el);
-          seenFirstGroup = true;
-        } else if (el.classList.contains('news-year') && seenFirstGroup) {
+        // Each group is a .news-year heading followed by its .news-list, so
+        // counting the headings tells us which group the element belongs to.
+        if (el.classList.contains('news-year')) groupsSeen++;
+        if (groupsSeen > VISIBLE_YEARS &&
+          (el.classList.contains('news-year') || el.classList.contains('news-list'))) {
           hidden.push(el);
         }
       });
