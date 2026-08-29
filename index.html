@@ -646,7 +646,7 @@
 
     .exp-logo {
       flex-shrink: 0;
-      width: 100px;
+      width: 132px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -841,26 +841,6 @@
       opacity: .65;
       font-size: 26px;
     }
-
-    /* Text plate standing in for an institution logo */
-    .exp-logo .plate {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 100px;
-      height: 58px;
-      border: 1px solid var(--divider);
-      border-radius: 8px;
-      background: var(--tint);
-      color: var(--heading-color);
-      font-family: 'Roboto Mono', monospace;
-      font-size: 12.5px;
-      font-weight: 500;
-      letter-spacing: .03em;
-      text-align: center;
-      padding: 4px;
-      line-height: 1.2;
-    }
   </style>
 </head>
 
@@ -948,9 +928,8 @@
         <li><span class="news-date">Nov 2025</span><span>Infinite-Story accepted to <a
               href="https://aaai.org/Conferences/AAAI-26/"><b>AAAI 2026</b></a> as an <span class="pub-highlight">oral
               paper</span>.</span></li>
-        <li><span class="news-date">Oct 2025</span><span>Received the <span class="pub-award">Grand Prize
-              (최우수상)</span> in the <b>Next-Generation Engineering Researcher</b> program, IPESK
-            (한국이공학진흥원).</span></li>
+        <li><span class="news-date">Oct 2025</span><span>Received the <span class="pub-award">Grand Prize</span> in the
+            <b>Next-Generation Engineering Researcher</b> program, IPESK (한국이공학진흥원).</span></li>
         <li><span class="news-date">Jul 2025</span><span>One paper accepted to the <a
               href="https://e2e3d.github.io/"><b>ICCV 2025 Workshop</b></a>.</span></li>
         <li><span class="news-date">Feb 2025</span><span>Flow4D accepted to <a
@@ -1013,6 +992,23 @@
     <section id="publications">
       <h2 class="sec-title">Publications</h2>
       <p class="pub-note">* indicates equal contribution. &dagger; indicates the corresponding author.</p>
+
+      <!-- SPL 2026 - LiDAR-to-Radar -->
+      <div class="pub">
+        <div class="pub-img">
+          <div class="badge">SPL 2026</div>
+          <img src="images/lidar2radar_main.png" alt="Object-Centric LiDAR-to-Radar Distillation">
+        </div>
+        <div class="pub-body">
+          <div class="pub-title">Object-Centric LiDAR-to-Radar Distillation for 3D Object Detection</div>
+          <div class="pub-authors">Sungho Moon*, <b><u>Jaeyeul Kim*</u></b>, Wonhyeok Choi, Jihun Park, Ukcheol
+            Shin&dagger;, Sunghoon Im&dagger;</div>
+          <div class="pub-venue">IEEE Signal Processing Letters (SPL), 2026</div>
+          <div class="pub-links">
+            <a href="https://ieeexplore.ieee.org/document/11644926">Paper</a>
+          </div>
+        </div>
+      </div>
 
       <!-- SIGGRAPH Asia 2026 - CRAFT -->
       <div class="pub">
@@ -1107,23 +1103,6 @@
           </div>
           <div class="pub-links">
             <a href="https://dl.acm.org/doi/abs/10.1145/3827612">Paper</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- SPL 2026 - LiDAR-to-Radar -->
-      <div class="pub">
-        <div class="pub-img">
-          <div class="badge">SPL 2026</div>
-          <img src="images/lidar2radar_main.png" alt="Object-Centric LiDAR-to-Radar Distillation">
-        </div>
-        <div class="pub-body">
-          <div class="pub-title">Object-Centric LiDAR-to-Radar Distillation for 3D Object Detection</div>
-          <div class="pub-authors">Sungho Moon*, <b><u>Jaeyeul Kim*</u></b>, Wonhyeok Choi, Jihun Park, Ukcheol
-            Shin&dagger;, Sunghoon Im&dagger;</div>
-          <div class="pub-venue">IEEE Signal Processing Letters (SPL), 2026</div>
-          <div class="pub-links">
-            <a href="https://ieeexplore.ieee.org/document/11644926">Paper</a>
           </div>
         </div>
       </div>
@@ -1330,7 +1309,7 @@
       <div class="pub">
         <div class="pub-img">
           <div class="badge">IEEE Access 2021</div>
-          <div class="plate" aria-hidden="true"><i class="far fa-file-lines"></i></div>
+          <img src="images/spatiotemporal_aug.png" alt="Spatio-temporal Data Augmentation for Visual Surveillance">
         </div>
         <div class="pub-body">
           <div class="pub-title">Spatio-temporal Data Augmentation for Visual Surveillance</div>
@@ -1427,7 +1406,7 @@
 
       <div class="exp">
         <div class="exp-logo">
-          <div class="plate">DGIST</div>
+          <img src="images/dgist_logo.jpg" alt="DGIST">
         </div>
         <div class="exp-text">
           <p class="title">Postdoctoral Researcher (Advisor: Sunghoon Im)</p>
@@ -1438,7 +1417,7 @@
 
       <div class="exp">
         <div class="exp-logo">
-          <div class="plate">CMU</div>
+          <img src="images/cmu_logo.svg" alt="Carnegie Mellon University Robotics Institute">
         </div>
         <div class="exp-text">
           <p class="title">Visiting Researcher</p>
@@ -1449,7 +1428,7 @@
 
       <div class="exp">
         <div class="exp-logo">
-          <div class="plate">DGIST</div>
+          <img src="images/dgist_logo.jpg" alt="DGIST">
         </div>
         <div class="exp-text">
           <p class="title">Ph.D. in Electrical Engineering and Computer Science (Advisor: Sunghoon Im)</p>
@@ -1460,7 +1439,7 @@
 
       <div class="exp">
         <div class="exp-logo">
-          <div class="plate">SEOUL<br>TECH</div>
+          <img src="images/seoultech_logo.png" alt="SEOULTECH">
         </div>
         <div class="exp-text">
           <p class="title">M.S. in Automotive Engineering</p>
@@ -1471,7 +1450,7 @@
 
       <div class="exp">
         <div class="exp-logo">
-          <div class="plate">SEOUL<br>TECH</div>
+          <img src="images/seoultech_logo.png" alt="SEOULTECH">
         </div>
         <div class="exp-text">
           <p class="title">B.S. in Mechanical and Automotive Engineering</p>
@@ -1487,8 +1466,8 @@
 
       <div class="act-cat">Scholarships &amp; Awards</div>
       <ul class="act-list">
+        <li><b>Grand Prize</b>, Next-Generation Engineering Researcher, Institute for the Promotion of Engineering and Science of Korea (IPESK, 한국이공학진흥원), 2025</li>
         <li><b>Bronze Award</b>, Outstanding Paper Award at IPIU, 2025</li>
-        <li><b>Grand Prize (최우수상)</b>, Next-Generation Engineering Researcher, Institute for the Promotion of Engineering and Science of Korea (IPESK, 한국이공학진흥원), 2025</li>
         <li><b>Outstanding Research Award</b>, EECS, DGIST, 2024</li>
         <li><b>Winner</b>, Argoverse LiDAR Scene Flow Challenge at CVPR WAD, 2024</li>
         <li><b>DGIST Post-Graduate Research Abroad Award</b>, 2024 (₩15,000,000)</li>
@@ -1505,11 +1484,18 @@
 
       <div class="act-cat">Reviewer</div>
       <ul class="act-list">
+        <li>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)</li>
+        <li>IEEE/CVF International Conference on Computer Vision (<b>ICCV</b>)</li>
+        <li>European Conference on Computer Vision (<b>ECCV</b>)</li>
+        <li>Conference on Neural Information Processing Systems (<b>NeurIPS</b>), including the Datasets and
+          Benchmarks Track</li>
+        <li>AAAI Conference on Artificial Intelligence (<b>AAAI</b>)</li>
+        <li>British Machine Vision Conference (<b>BMVC</b>)</li>
         <li>IEEE International Conference on Robotics and Automation (<b>ICRA</b>)</li>
         <li>IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS</b>)</li>
         <li>IEEE Robotics and Automation Letters (<b>RA-L</b>)</li>
+        <li>IEEE Transactions on Circuits and Systems for Video Technology (<b>TCSVT</b>)</li>
         <li>IEEE Sensors Journal</li>
-        <li>NeurIPS Track Datasets and Benchmarks</li>
         <li>Scientific Reports</li>
         <li>The Visual Computer</li>
         <li>International Journal of Intelligent Robotics and Applications</li>
