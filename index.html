@@ -7,19 +7,19 @@
   <title>Jaeyeul Kim</title>
   <meta name="author" content="Jaeyeul Kim">
   <meta name="description"
-    content="Jaeyeul Kim is a Ph.D. student in EECS at DGIST, researching autonomous driving at the DGIST Computer Vision Lab: LiDAR segmentation, detection, tracking, forecasting, and planning.">
+    content="Jaeyeul Kim is a postdoctoral researcher in EECS at DGIST, researching autonomous driving at the DGIST Computer Vision Lab: LiDAR segmentation, detection, tracking, forecasting, and planning.">
   <link rel="canonical" href="https://jykim94.github.io/">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Jaeyeul Kim">
-  <meta property="og:title" content="Jaeyeul Kim — Ph.D. Student at DGIST">
+  <meta property="og:title" content="Jaeyeul Kim — Postdoctoral Researcher at DGIST">
   <meta property="og:description"
     content="Autonomous driving research: LiDAR segmentation, detection, tracking, forecasting, and planning. DGIST Computer Vision Lab.">
   <meta property="og:url" content="https://jykim94.github.io/">
   <meta property="og:image" content="https://jykim94.github.io/images/profile_photo.jpg">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Jaeyeul Kim — Ph.D. Student at DGIST">
+  <meta name="twitter:title" content="Jaeyeul Kim — Postdoctoral Researcher at DGIST">
   <meta name="twitter:description"
     content="Autonomous driving research: LiDAR segmentation, detection, tracking, forecasting, and planning. DGIST Computer Vision Lab.">
   <meta name="twitter:image" content="https://jykim94.github.io/images/profile_photo.jpg">
@@ -407,56 +407,6 @@
       font-size: 14px;
       color: var(--muted);
       margin-bottom: 14px;
-    }
-
-    /* Topic filter */
-    .pub-filter {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-bottom: 20px;
-    }
-
-    .filter-chip {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 5px 13px;
-      font-family: 'Roboto', sans-serif;
-      font-size: 12.5px;
-      font-weight: 400;
-      line-height: 1.4;
-      color: var(--muted);
-      background: none;
-      border: 1px solid var(--divider);
-      border-radius: 20px;
-      cursor: pointer;
-      transition: all .2s;
-    }
-
-    .filter-chip:hover {
-      color: var(--theme-color);
-      border-color: var(--theme-color);
-    }
-
-    .filter-chip.is-active {
-      color: var(--bg);
-      background: var(--theme-color);
-      border-color: var(--theme-color);
-    }
-
-    .filter-chip .count {
-      font-size: 11px;
-      opacity: .7;
-      font-variant-numeric: tabular-nums;
-    }
-
-    .pub.is-filtered {
-      display: none;
-    }
-
-    .pub.is-last-visible {
-      border-bottom: none;
     }
 
     .pub {
@@ -947,10 +897,11 @@
       <div class="profile-text">
         <h1>Jaeyeul Kim</h1>
         <p>
-          I am a Ph.D. student in the Department of Electrical Engineering and Computer Science (EECS) at
-          <a href="https://www.dgist.ac.kr/">DGIST</a>, South Korea, conducting research on autonomous driving
-          under the supervision of <a href="https://sunghoonim.github.io/">Prof. Sunghoon Im</a> at the
-          <a href="https://cvlab.dgist.ac.kr/">DGIST Computer Vision Lab</a>.
+          I am a postdoctoral researcher in the Department of Electrical Engineering and Computer Science (EECS)
+          at <a href="https://www.dgist.ac.kr/">DGIST</a>, South Korea, conducting research on autonomous driving
+          with <a href="https://sunghoonim.github.io/">Prof. Sunghoon Im</a> at the
+          <a href="https://cvlab.dgist.ac.kr/">DGIST Computer Vision Lab</a>, where I received my Ph.D. in
+          February 2026.
         </p>
         <p>
           Specifically, I have worked on <b>LiDAR-based segmentation, detection, tracking, and forecasting</b>.
@@ -1063,12 +1014,6 @@
       <h2 class="sec-title">Publications</h2>
       <p class="pub-note">* indicates equal contribution. &dagger; indicates the corresponding author.</p>
 
-      <!-- Counts are filled in by script so they can never drift from the list below -->
-      <div class="pub-filter" role="group" aria-label="Filter publications">
-        <button type="button" class="filter-chip is-active" data-filter="selected" aria-pressed="true">Selected</button>
-        <button type="button" class="filter-chip" data-filter="all" aria-pressed="false">All</button>
-      </div>
-
       <!-- SIGGRAPH Asia 2026 - CRAFT -->
       <div class="pub">
         <div class="pub-img">
@@ -1167,7 +1112,7 @@
       </div>
 
       <!-- SPL 2026 - LiDAR-to-Radar -->
-      <div class="pub" data-selected>
+      <div class="pub">
         <div class="pub-img">
           <div class="badge">SPL 2026</div>
           <img src="images/lidar2radar_main.png" alt="Object-Centric LiDAR-to-Radar Distillation">
@@ -1238,7 +1183,7 @@
       </div>
 
       <!-- RA-L 2025 - Flow4D -->
-      <div class="pub" data-selected>
+      <div class="pub">
         <div class="pub-img">
           <div class="badge">RA-L 2025</div>
           <img src="images/FLOW2024.png" alt="Flow4D">
@@ -1273,7 +1218,7 @@
       </div>
 
       <!-- ECCV 2024 -->
-      <div class="pub" data-selected>
+      <div class="pub">
         <div class="pub-img">
           <div class="badge">ECCV 2024</div>
           <img src="images/ECCV2024.png" alt="Rethinking LiDAR Domain Generalization">
@@ -1286,7 +1231,7 @@
       </div>
 
       <!-- IROS 2024 -->
-      <div class="pub" data-selected>
+      <div class="pub">
         <div class="pub-img">
           <div class="badge">IROS 2024</div>
           <img src="images/IROS2024.png" alt="Density-aware Domain Generalization">
@@ -1299,7 +1244,7 @@
       </div>
 
       <!-- IEEE Access 2023 -->
-      <div class="pub" data-selected>
+      <div class="pub">
         <div class="pub-img">
           <div class="badge">IEEE Access 2023</div>
           <img src="images/Automatic.png" alt="Automatic Extrinsic Calibration with Point-Line Correspondences">
@@ -1316,7 +1261,7 @@
       </div>
 
       <!-- CVPRw 2023 -->
-      <div class="pub" data-selected>
+      <div class="pub">
         <div class="pub-img">
           <div class="badge">CVPRw 2023</div>
           <img src="images/CVPRw.png" alt="Motion Forecasting via Coordinate Transformations">
@@ -1365,7 +1310,7 @@
       </div>
 
       <!-- RA-L / IROS 2022 - RVMOS -->
-      <div class="pub" data-selected>
+      <div class="pub">
         <div class="pub-img">
           <div class="badge">RA-L / IROS 2022</div>
           <img src="images/rvmos.png" alt="RVMOS">
@@ -1482,6 +1427,17 @@
 
       <div class="exp">
         <div class="exp-logo">
+          <div class="plate">DGIST</div>
+        </div>
+        <div class="exp-text">
+          <p class="title">Postdoctoral Researcher (Advisor: Sunghoon Im)</p>
+          <p class="detail">Daegu Gyeongbuk Institute of Science and Technology (DGIST), South Korea</p>
+          <p class="date">Feb. 2026 – Aug. 2026</p>
+        </div>
+      </div>
+
+      <div class="exp">
+        <div class="exp-logo">
           <div class="plate">CMU</div>
         </div>
         <div class="exp-text">
@@ -1496,9 +1452,9 @@
           <div class="plate">DGIST</div>
         </div>
         <div class="exp-text">
-          <p class="title">Ph.D. Course in Electrical Engineering and Computer Science (Advisor: Sunghoon Im)</p>
+          <p class="title">Ph.D. in Electrical Engineering and Computer Science (Advisor: Sunghoon Im)</p>
           <p class="detail">Daegu Gyeongbuk Institute of Science and Technology (DGIST), South Korea</p>
-          <p class="date">Aug. 2021 – Present</p>
+          <p class="date">Aug. 2021 – Feb. 2026</p>
         </div>
       </div>
 
@@ -1664,50 +1620,6 @@
 
       if (media.addEventListener) media.addEventListener('change', sync);
       sync();
-    })();
-
-    // Publication filter: selected papers by default, full list on request
-    (function () {
-      var bar = document.querySelector('.pub-filter');
-      if (!bar) return;
-      var pubs = [].slice.call(document.querySelectorAll('#publications .pub'));
-      var chips = [].slice.call(bar.querySelectorAll('.filter-chip'));
-
-      function matches(pub, filter) {
-        return filter === 'all' || pub.hasAttribute('data-selected');
-      }
-
-      chips.forEach(function (chip) {
-        var count = document.createElement('span');
-        count.className = 'count';
-        count.textContent = pubs.filter(function (p) { return matches(p, chip.dataset.filter); }).length;
-        chip.appendChild(count);
-      });
-
-      function apply(filter) {
-        var last = null;
-        pubs.forEach(function (p) {
-          var show = matches(p, filter);
-          p.classList.toggle('is-filtered', !show);
-          p.classList.remove('is-last-visible');
-          if (show) last = p;
-        });
-        // the last visible entry drops its divider, as .pub:last-child would
-        if (last) last.classList.add('is-last-visible');
-      }
-
-      bar.addEventListener('click', function (e) {
-        var chip = e.target.closest('.filter-chip');
-        if (!chip) return;
-        chips.forEach(function (c) {
-          var on = c === chip;
-          c.classList.toggle('is-active', on);
-          c.setAttribute('aria-pressed', String(on));
-        });
-        apply(chip.dataset.filter);
-      });
-
-      apply('selected');
     })();
 
     // Collapse older news behind a toggle
