@@ -50,6 +50,7 @@
       --text-color: #333;
       --heading-color: #222;
       --muted: #6c757d;
+      --venue: #444b55;
       --divider: #e8e8e8;
       --divider-soft: #f0f0f0;
       --bg: #fff;
@@ -80,6 +81,7 @@
         --text-color: #c4ccd6;
         --heading-color: #e8eef6;
         --muted: #8b949e;
+        --venue: #b8c1cc;
         --divider: #262c36;
         --divider-soft: #1e242c;
         --bg: #0d1117;
@@ -108,6 +110,7 @@
       --text-color: #c4ccd6;
       --heading-color: #e8eef6;
       --muted: #8b949e;
+      --venue: #b8c1cc;
       --divider: #262c36;
       --divider-soft: #1e242c;
       --bg: #0d1117;
@@ -547,9 +550,14 @@
 
     .pub-venue {
       font-size: 14px;
-      color: var(--muted);
+      color: var(--venue);
+      font-weight: 400;
       font-style: italic;
       margin: 0 0 6px;
+    }
+
+    .pub-venue b {
+      color: var(--heading-color);
     }
 
     .pub-links {
@@ -1015,7 +1023,7 @@
           <div class="pub-title">H-GenPO: Hierarchical Generative Policy Optimization via the Option-Critic Framework</div>
           <div class="pub-authors">Wonhyeok Choi, Minwoo Choi, <b><u>Jaeyeul Kim</u></b>, Kyumin Hwang, Jongmin Gim,
             Sunghoon Im&dagger;</div>
-          <div class="pub-venue">Neural Information Processing Systems (NeurIPS), 2026</div>
+          <div class="pub-venue">Neural Information Processing Systems <b>(NeurIPS)</b>, 2026</div>
         </div>
       </div>
 
@@ -1029,7 +1037,7 @@
           <div class="pub-title">Object-Centric LiDAR-to-Radar Distillation for 3D Object Detection</div>
           <div class="pub-authors">Sungho Moon*, <b><u>Jaeyeul Kim*</u></b>, Wonhyeok Choi, Jihun Park, Ukcheol
             Shin&dagger;, Sunghoon Im&dagger;</div>
-          <div class="pub-venue">IEEE Signal Processing Letters (SPL), 2026</div>
+          <div class="pub-venue">IEEE Signal Processing Letters <b>(SPL)</b>, 2026</div>
           <div class="pub-links">
             <a href="https://ieeexplore.ieee.org/document/11644926">Paper</a>
           </div>
@@ -1048,7 +1056,7 @@
           <div class="pub-authors">Jihun Park, Kyoungmin Lee, Jongmin Gim, Hyeonseo Jo, <b><u>Jaeyeul Kim</u></b>, Han
             Zou, Zhenpeng Zhan, Yan Zhang&dagger;, Sunghoon Im&dagger;</div>
           <div class="pub-venue">ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques
-            in Asia (SIGGRAPH Asia), 2026</div>
+            in Asia <b>(SIGGRAPH Asia)</b>, 2026</div>
           <span class="pub-highlight">Oral Presentation</span>
           <div class="pub-links">
             <a href="https://arxiv.org/abs/2608.14403">Paper</a>
@@ -1068,7 +1076,7 @@
           </div>
           <div class="pub-authors">Wonhyeok Choi, Kyumin Hwang, Jihun Park, Kyoungmin Lee, Seunghun Lee, <b><u>Jaeyeul
                 Kim</u></b>, Minwoo Choi, Sunghoon Im&dagger;</div>
-          <div class="pub-venue">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026</div>
+          <div class="pub-venue">IEEE/CVF Conference on Computer Vision and Pattern Recognition <b>(CVPR)</b>, 2026</div>
           <div class="pub-links">
             <a
               href="https://openaccess.thecvf.com/content/CVPR2026/html/Choi_TaskForce_Cooperative_Multi-agent_Reinforcement_Learning_for_Multi-task_Optimization_CVPR_2026_paper.html">Paper</a>
@@ -1086,7 +1094,7 @@
           <div class="pub-title">A Training-Free Style-Personalization via SVD-Based Feature Decomposition</div>
           <div class="pub-authors">Kyoungmin Lee*, Jihun Park*, Jongmin Gim*, Wonhyeok Choi, Kyumin Hwang,
             <b><u>Jaeyeul Kim</u></b>, Sunghoon Im&dagger;</div>
-          <div class="pub-venue">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026</div>
+          <div class="pub-venue">IEEE/CVF Conference on Computer Vision and Pattern Recognition <b>(CVPR)</b>, 2026</div>
           <div class="pub-links">
             <a
               href="https://openaccess.thecvf.com/content/CVPR2026/html/Lee_A_Training-Free_Style-Personalization_via_SVD-Based_Feature_Decomposition_CVPR_2026_paper.html">Paper</a>
@@ -1104,7 +1112,7 @@
           <div class="pub-title">Infinite-Story: A Training-Free Consistent Text-to-Image Generation</div>
           <div class="pub-authors">Jihun Park*, Kyoungmin Lee*, Jongmin Gim*, Hyeonseo Jo, Minseok Oh, Wonhyeok Choi,
             Kyumin Hwang, <b><u>Jaeyeul Kim</u></b>, Minwoo Choi, Sunghoon Im&dagger;</div>
-          <div class="pub-venue">The 40th Annual AAAI Conference on Artificial Intelligence (AAAI), 2026</div>
+          <div class="pub-venue">The 40th Annual AAAI Conference on Artificial Intelligence <b>(AAAI)</b>, 2026</div>
           <span class="pub-highlight">Oral Presentation</span>
           <div class="pub-links">
             <a href="https://ojs.aaai.org/index.php/AAAI/article/view/37776">Paper</a>
@@ -1125,7 +1133,7 @@
             Self-Labeling</div>
           <div class="pub-authors">Jeonghoon Kim*, Hyeon Kang*, Jihun Park, Jinhwoi Kim, <b><u>Jaeyeul Kim</u></b>,
             Sunghoon Im&dagger;</div>
-          <div class="pub-venue">ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM), 2026
+          <div class="pub-venue">ACM Transactions on Multimedia Computing, Communications, and Applications <b>(TOMM)</b>, 2026
           </div>
           <div class="pub-links">
             <a href="https://dl.acm.org/doi/abs/10.1145/3827612">Paper</a>
@@ -1143,7 +1151,7 @@
           <div class="pub-title">CascadeOcc: Rethinking 3D Occupancy World Models with Cascaded VQ Representations</div>
           <div class="pub-authors">Kyumin Hwang*, Wonhyeok Choi*, <b><u>Jaeyeul Kim</u></b>, Jihun Park, Daehee
             Park&dagger;, Sunghoon Im&dagger;</div>
-          <div class="pub-venue">IEEE Signal Processing Letters (SPL), 2026</div>
+          <div class="pub-venue">IEEE Signal Processing Letters <b>(SPL)</b>, 2026</div>
           <div class="pub-links">
             <a href="https://ieeexplore.ieee.org/document/11474772">Paper</a>
           </div>
@@ -1162,7 +1170,7 @@
           <div class="pub-authors">Sanggyun Ma*, Wonjoon Choi*, Jihun Park*, <b><u>Jaeyeul Kim</u></b>, Seunghun Lee,
             Jiwan Seo, Sunghoon Im&dagger;</div>
           <div class="pub-venue">The 25th International Conference on Electronics, Information, and Communication
-            (ICEIC), 2026</div>
+            <b>(ICEIC)</b>, 2026</div>
           <div class="pub-links">
             <a href="https://ieeexplore.ieee.org/abstract/document/11386238">Paper</a>
           </div>
@@ -1180,7 +1188,7 @@
             Models</div>
           <div class="pub-authors">Sanggyun Ma*, Wonjoon Choi*, Jihun Park, <b><u>Jaeyeul Kim</u></b>, Sunghoon
             Im&dagger;</div>
-          <div class="pub-venue">International Conference on Computer Vision Workshop (ICCVw), 2025</div>
+          <div class="pub-venue">International Conference on Computer Vision Workshop <b>(ICCVw)</b>, 2025</div>
           <div class="pub-links">
             <a href="https://ieeexplore.ieee.org/abstract/document/11385908">Paper</a>
           </div>
@@ -1196,7 +1204,7 @@
         <div class="pub-body">
           <div class="pub-title">Flow4D: Leveraging 4D Voxel Network for LiDAR Scene Flow Estimation</div>
           <div class="pub-authors"><b><u>Jaeyeul Kim</u></b>, Jungwan Woo, Ukcheol Shin, Jean Oh, Sunghoon Im</div>
-          <div class="pub-venue">IEEE Robotics and Automation Letters (RA-L / IROS), 2025</div>
+          <div class="pub-venue">IEEE Robotics and Automation Letters <b>(RA-L / IROS)</b>, 2025</div>
           <span class="pub-highlight">Winner of the Argoverse 2 LiDAR Scene Flow Challenge at CVPR 2024 WAD</span>
           <div class="pub-links">
             <a href="https://ieeexplore.ieee.org/document/10887254">Paper</a>
@@ -1231,7 +1239,7 @@
         <div class="pub-body">
           <div class="pub-title">Rethinking LiDAR Domain Generalization: Single Source as Multiple Density Domains</div>
           <div class="pub-authors"><b><u>Jaeyeul Kim*</u></b>, Jungwan Woo*, Jeonghoon Kim, Sunghoon Im</div>
-          <div class="pub-venue">European Conference on Computer Vision (ECCV), 2024</div>
+          <div class="pub-venue">European Conference on Computer Vision <b>(ECCV)</b>, 2024</div>
         </div>
       </div>
 
@@ -1244,7 +1252,7 @@
         <div class="pub-body">
           <div class="pub-title">Density-aware Domain Generalization for LiDAR Semantic Segmentation</div>
           <div class="pub-authors"><b><u>Jaeyeul Kim*</u></b>, Jungwan Woo*, Ukcheol Shin, Jean Oh, Sunghoon Im</div>
-          <div class="pub-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2024</div>
+          <div class="pub-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems <b>(IROS)</b>, 2024</div>
         </div>
       </div>
 
@@ -1258,7 +1266,7 @@
           <div class="pub-title">Automatic Extrinsic Calibration of a Camera and a 2D LiDAR with Point-Line
             Correspondences</div>
           <div class="pub-authors"><b><u>Jaeyeul Kim</u></b>, Jongeun Ha</div>
-          <div class="pub-venue">IEEE Access, 2023</div>
+          <div class="pub-venue"><b>IEEE Access</b>, 2023</div>
           <div class="pub-links">
             <a href="https://ieeexplore.ieee.org/abstract/document/10190560">Paper</a>
           </div>
@@ -1275,7 +1283,7 @@
           <div class="pub-title">Motion Forecasting via Coordinate Transformations and Object Trajectory Modifications
           </div>
           <div class="pub-authors">Jungwan Woo*, <b><u>Jaeyeul Kim*</u></b>, Sunghoon Im</div>
-          <div class="pub-venue">CVPR Workshop on Autonomous Driving (CVPRw), 2023</div>
+          <div class="pub-venue">CVPR Workshop on Autonomous Driving <b>(CVPRw)</b>, 2023</div>
           <span class="pub-award">2nd place in the challenge</span>
           <div class="pub-links">
             <a href="https://www.neeharperi.com/files/dgist-cvlab_techreport_cvprw23.pdf">Technical report</a>
@@ -1292,7 +1300,7 @@
         <div class="pub-body">
           <div class="pub-title">LiDAR 3D Object Detection via Self-Training and Knowledge Distillation</div>
           <div class="pub-authors">Jungwan Woo*, <b><u>Jaeyeul Kim*</u></b>, Sunghoon Im</div>
-          <div class="pub-venue">ECCV Workshop on 3D Perception for Autonomous Driving (ECCVw), 2022</div>
+          <div class="pub-venue">ECCV Workshop on 3D Perception for Autonomous Driving <b>(ECCVw)</b>, 2022</div>
           <span class="pub-award">3rd place in the challenge</span>
         </div>
       </div>
@@ -1307,7 +1315,7 @@
           <div class="pub-title">Weakly Supervised Foreground Object Detection Network Using Background Model Image
           </div>
           <div class="pub-authors"><b><u>Jaeyeul Kim</u></b>, Jongeun Ha</div>
-          <div class="pub-venue">IEEE Access, 2022</div>
+          <div class="pub-venue"><b>IEEE Access</b>, 2022</div>
           <div class="pub-links">
             <a href="https://ieeexplore.ieee.org/abstract/document/9910159">Paper</a>
           </div>
@@ -1324,7 +1332,7 @@
           <div class="pub-title">RVMOS: Range-View Moving Object Segmentation Leveraged by Semantic and Motion Features
           </div>
           <div class="pub-authors"><b><u>Jaeyeul Kim*</u></b>, Jungwan Woo*, Sunghoon Im</div>
-          <div class="pub-venue">IEEE Robotics and Automation Letters (RA-L / IROS), 2022</div>
+          <div class="pub-venue">IEEE Robotics and Automation Letters <b>(RA-L / IROS)</b>, 2022</div>
           <div class="pub-links">
             <a href="https://ieeexplore.ieee.org/abstract/document/9806157">Paper</a>
           </div>
@@ -1340,7 +1348,7 @@
         <div class="pub-body">
           <div class="pub-title">Spatio-temporal Data Augmentation for Visual Surveillance</div>
           <div class="pub-authors"><b><u>Jaeyeul Kim</u></b>, Jongeun Ha</div>
-          <div class="pub-venue">IEEE Access, 2021</div>
+          <div class="pub-venue"><b>IEEE Access</b>, 2021</div>
           <div class="pub-links">
             <a href="https://ieeexplore.ieee.org/abstract/document/9650910">Paper</a>
           </div>
@@ -1356,7 +1364,7 @@
         <div class="pub-body">
           <div class="pub-title">Generation of Background Model Image Using Foreground Model</div>
           <div class="pub-authors"><b><u>Jaeyeul Kim</u></b>, Jongeun Ha</div>
-          <div class="pub-venue">IEEE Access, 2021</div>
+          <div class="pub-venue"><b>IEEE Access</b>, 2021</div>
           <div class="pub-links">
             <a href="https://ieeexplore.ieee.org/abstract/document/9535139">Paper</a>
           </div>
@@ -1373,7 +1381,7 @@
           <div class="pub-title">Extrinsic Calibration of a Camera and a 2D LiDAR using a Dummy Camera with IR Cut
             Filter Removed</div>
           <div class="pub-authors"><b><u>Jaeyeul Kim</u></b>, Jongeun Ha</div>
-          <div class="pub-venue">IEEE Access, 2020</div>
+          <div class="pub-venue"><b>IEEE Access</b>, 2020</div>
           <div class="pub-links">
             <a href="https://ieeexplore.ieee.org/abstract/document/9216096">Paper</a>
           </div>
@@ -1390,7 +1398,7 @@
           <div class="pub-title">Foreground Objects Detection Using a Fully Convolutional Network with a Background
             Model Image and Multiple Original Images</div>
           <div class="pub-authors"><b><u>Jaeyeul Kim</u></b>, Jongeun Ha</div>
-          <div class="pub-venue">IEEE Access, 2020</div>
+          <div class="pub-venue"><b>IEEE Access</b>, 2020</div>
           <div class="pub-links">
             <a href="https://ieeexplore.ieee.org/abstract/document/9183919">Paper</a>
           </div>
@@ -1407,7 +1415,7 @@
           <div class="pub-title">Automatic Extrinsic Calibration of a Camera and Laser Range Finder using Constraints
             Fusion</div>
           <div class="pub-authors"><b><u>Jaeyeul Kim</u></b>, Jongeun Ha</div>
-          <div class="pub-venue">International Conference on Control, Automation and Systems (ICCAS), 2019</div>
+          <div class="pub-venue">International Conference on Control, Automation and Systems <b>(ICCAS)</b>, 2019</div>
         </div>
       </div>
 
@@ -1421,7 +1429,7 @@
           <div class="pub-title">Extrinsic Calibration of Camera and Laser Range Finder using a Dummy Camera without IR
             Cut Filter</div>
           <div class="pub-authors"><b><u>Jaeyeul Kim</u></b>, Jongeun Ha</div>
-          <div class="pub-venue">International Conference on Control, Automation and Systems (ICCAS), 2018</div>
+          <div class="pub-venue">International Conference on Control, Automation and Systems <b>(ICCAS)</b>, 2018</div>
         </div>
       </div>
     </section>
